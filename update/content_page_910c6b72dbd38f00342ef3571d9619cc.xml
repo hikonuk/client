@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="content_page" unload_date="2019-01-19 17:49:59">
+    <sys_portal action="delete_multiple" query="page=910c6b72dbd38f00342ef3571d9619cc">
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="Go_live Tracker">910c6b72dbd38f00342ef3571d9619cc</page>
+                <summary/>
+                <sys_created_by>fge.shay</sys_created_by>
+                <sys_created_on>2017-12-31 21:53:11</sys_created_on>
+                <sys_id>0d3ceb72dbd38f00342ef3571d96199b</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>fge.shay</sys_updated_by>
+                <sys_updated_on>2017-12-31 21:53:11</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 31/12/2017 21:53:11">0d3ceb72dbd38f00342ef3571d96199b</portal_section>
+                        <sys_created_by>fge.shay</sys_created_by>
+                        <sys_created_on>2017-12-31 21:53:11</sys_created_on>
+                        <sys_id>013ceb72dbd38f00342ef3571d96199e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fge.shay</sys_updated_by>
+                        <sys_updated_on>2017-12-31 21:53:11</sys_updated_on>
+                        <value>calendar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 31/12/2017 21:53:11">0d3ceb72dbd38f00342ef3571d96199b</portal_section>
+                        <sys_created_by>fge.shay</sys_created_by>
+                        <sys_created_on>2017-12-31 21:53:11</sys_created_on>
+                        <sys_id>053ceb72dbd38f00342ef3571d96199d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fge.shay</sys_updated_by>
+                        <sys_updated_on>2017-12-31 21:53:11</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 31/12/2017 21:53:11">0d3ceb72dbd38f00342ef3571d96199b</portal_section>
+                        <sys_created_by>fge.shay</sys_created_by>
+                        <sys_created_on>2017-12-31 21:53:11</sys_created_on>
+                        <sys_id>853ceb72dbd38f00342ef3571d96199e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fge.shay</sys_updated_by>
+                        <sys_updated_on>2017-12-31 21:53:11</sys_updated_on>
+                        <value>Go-Live Tracker</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 31/12/2017 21:53:11">0d3ceb72dbd38f00342ef3571d96199b</portal_section>
+                        <sys_created_by>fge.shay</sys_created_by>
+                        <sys_created_on>2017-12-31 21:53:11</sys_created_on>
+                        <sys_id>893ceb72dbd38f00342ef3571d96199d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fge.shay</sys_updated_by>
+                        <sys_updated_on>2017-12-31 21:53:11</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 31/12/2017 21:53:11">0d3ceb72dbd38f00342ef3571d96199b</portal_section>
+                        <sys_created_by>fge.shay</sys_created_by>
+                        <sys_created_on>2017-12-31 21:53:11</sys_created_on>
+                        <sys_id>8d3ceb72dbd38f00342ef3571d96199c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fge.shay</sys_updated_by>
+                        <sys_updated_on>2017-12-31 21:53:11</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 31/12/2017 21:53:11">0d3ceb72dbd38f00342ef3571d96199b</portal_section>
+                        <sys_created_by>fge.shay</sys_created_by>
+                        <sys_created_on>2017-12-31 21:53:11</sys_created_on>
+                        <sys_id>8d3ceb72dbd38f00342ef3571d96199e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fge.shay</sys_updated_by>
+                        <sys_updated_on>2017-12-31 21:53:11</sys_updated_on>
+                        <value>910c6b72dbd38f00342ef3571d9619cc</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 31/12/2017 21:53:11">0d3ceb72dbd38f00342ef3571d96199b</portal_section>
+                        <sys_created_by>fge.shay</sys_created_by>
+                        <sys_created_on>2017-12-31 21:53:11</sys_created_on>
+                        <sys_id>cd3ceb72dbd38f00342ef3571d96199b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>fge.shay</sys_updated_by>
+                        <sys_updated_on>2017-12-31 21:53:11</sys_updated_on>
+                        <value>243aebbedb938f00342ef3571d9619b3</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal>
+    <content_page action="INSERT_OR_UPDATE">
+        <content_site/>
+        <content_theme/>
+        <description/>
+        <frame_buster>false</frame_buster>
+        <layout/>
+        <model_id/>
+        <model_table/>
+        <name>Go-Live Tracker</name>
+        <order/>
+        <parent_page/>
+        <read_roles/>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>content_page</sys_class_name>
+        <sys_created_by>fge.shay</sys_created_by>
+        <sys_created_on>2017-12-31 21:52:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>910c6b72dbd38f00342ef3571d9619cc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Go-Live Tracker</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
+        <sys_update_name>content_page_910c6b72dbd38f00342ef3571d9619cc</sys_update_name>
+        <sys_updated_by>fge.shay</sys_updated_by>
+        <sys_updated_on>2017-12-31 21:53:11</sys_updated_on>
+        <title>Go_live Tracker</title>
+        <url_suffix>go_live_tracker</url_suffix>
+        <user/>
+        <view/>
+        <workflow_state>published</workflow_state>
+    </content_page>
+</record_update>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="hosting_type" table="x_brig3_client_con_client_configuration" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hosting_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cloud - Hub</label>
+            <language>en</language>
+            <name>x_brig3_client_con_client_configuration</name>
+            <sequence>100</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-12-20 09:03:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43929cdbdbc3cf00a817f3561d961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-12-20 09:03:47</sys_updated_on>
+            <value>Cloud - Hub</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hosting_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cloud - Engage only</label>
+            <language>en</language>
+            <name>x_brig3_client_con_client_configuration</name>
+            <sequence>200</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-12-20 09:03:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83929cdbdbc3cf00a817f3561d961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-12-20 09:03:47</sys_updated_on>
+            <value>Cloud - Engage only</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hosting_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cloud - Hub and Engage</label>
+            <language>en</language>
+            <name>x_brig3_client_con_client_configuration</name>
+            <sequence>300</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-12-20 09:03:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c3929cdbdbc3cf00a817f3561d961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-12-20 09:03:47</sys_updated_on>
+            <value>Cloud - Hub and Engage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hosting_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On-Premises - Hub</label>
+            <language>en</language>
+            <name>x_brig3_client_con_client_configuration</name>
+            <sequence>400</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-12-20 09:03:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>07929cdbdbc3cf00a817f3561d961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-12-20 09:03:47</sys_updated_on>
+            <value>On-Premises - Hub</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hosting_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On-Premises - Engage only</label>
+            <language>en</language>
+            <name>x_brig3_client_con_client_configuration</name>
+            <sequence>500</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-12-20 09:03:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>47929cdbdbc3cf00a817f3561d961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-12-20 09:03:47</sys_updated_on>
+            <value>On-Premises - Engage only</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hosting_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On-Premises - Hub and Engage</label>
+            <language>en</language>
+            <name>x_brig3_client_con_client_configuration</name>
+            <sequence>600</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-12-20 09:03:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87929cdbdbc3cf00a817f3561d961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-12-20 09:03:47</sys_updated_on>
+            <value>On-Premises - Hub and Engage</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>hosting_type</element>
+            <name>x_brig3_client_con_client_configuration</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-12-20 09:03:47</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8b929cdbdbc3cf00a817f3561d961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>hosting_type</sys_name>
+            <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
+            <sys_update_name>sys_choice_x_brig3_client_con_client_configuration_hosting_type</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-12-20 09:03:47</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

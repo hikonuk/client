@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="portal_url_required_for_production" label="Portal URL required for Production" language="en" table="x_brig3_client_con_client_configuration">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>portal_url_required_for_production</element>
+            <help/>
+            <hint>e.g, rockstarrs.unily.com</hint>
+            <label>Portal URL required for Production</label>
+            <language>en</language>
+            <name>x_brig3_client_con_client_configuration</name>
+            <plural>Portal URL required for Productions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>fge.shay</sys_created_by>
+            <sys_created_on>2017-12-07 16:44:09</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>085fba03dbbe4300342ef3571d9619ac</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Portal URL required for Production</sys_name>
+            <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
+            <sys_update_name>sys_documentation_x_brig3_client_con_client_configuration_portal_url_required_for_production_en</sys_update_name>
+            <sys_updated_by>fge.shay</sys_updated_by>
+            <sys_updated_on>2017-12-22 16:36:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

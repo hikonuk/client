@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>sysapproval_approver</collection>
+        <email_layout/>
+        <message><![CDATA[Short Description: ${sysapproval.short_description}
+Priority: ${sysapproval.priority}
+Requested For: ${sysapproval.requested_for}
+Requested By: ${sysapproval.opened_by}
+Total Price: ${sysapproval.price}
+<hr/>
+${mail_script:approval_items_summary}
+Comments:
+${sysapproval.description}
+<hr/>
+${mailto:mailto.approval}
+<hr/>
+${mailto:mailto.rejection}
+<hr/>
+Click here to view Approval Request: ${URI}
+Click here to view ${sysapproval.sys_class_name}:  ${sysapproval.URI}
+]]></message>
+        <message_html><![CDATA[<div>&nbsp;</div>
+<div>Hi,</div>
+<div>&nbsp;</div>
+<div>There is a new Client Configuration item waiting for your approval:</div>
+<div>&nbsp;</div>
+<div>
+<div>Click here to view Approval Request: ${URI}</div>
+<div>&nbsp;</div>
+</div>
+<div>${mailto:mailto.approval}</div>
+<div>
+<div><hr /></div>
+</div>
+<div>${mailto:mailto.rejection}</div>
+<div>
+<div><hr /></div>
+</div>
+<div>&nbsp;</div>
+<div>Thank you,</div>
+<div>Unily Support</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>client.config.itil.approve.role</name>
+        <sms_alternate/>
+        <subject>Client Configuration Approval Request </subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>fge.shay</sys_created_by>
+        <sys_created_on>2018-01-03 09:45:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b952ec77dbd7cf00342ef3571d9619ea</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>client.config.itil.approve.role</sys_name>
+        <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
+        <sys_update_name>sysevent_email_template_b952ec77dbd7cf00342ef3571d9619ea</sys_update_name>
+        <sys_updated_by>fge.shay</sys_updated_by>
+        <sys_updated_on>2018-01-03 09:49:03</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

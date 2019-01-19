@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_brig3_client_con.getCompany</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>getCompany</name>
+        <script><![CDATA[var getCompany = Class.create();
+getCompany.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	company: function() {
+		var company = this.getParameter('sysparm_company');
+		var group = new GlideRecord('x_brig3_client_con_client_configuration');
+		group.addQuery('company',company);
+		group.addQuery('active',true);
+		group.query();
+		
+		if (group.next()){
+			var answer = true;
+			return answer;
+		}
+		else if (!group.next()) {
+			var answer = false;
+			return answer;
+		}
+	},
+	
+	
+	type: 'getCompany'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>fge.shay</sys_created_by>
+        <sys_created_on>2017-12-15 12:45:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>53655765db8f4700342ef3571d961971</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>getCompany</sys_name>
+        <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
+        <sys_update_name>sys_script_include_53655765db8f4700342ef3571d961971</sys_update_name>
+        <sys_updated_by>fge.shay</sys_updated_by>
+        <sys_updated_on>2017-12-15 12:51:48</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>unily_test_useraaccount_credentials_added_to_last_pass</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>fge.shay</sys_created_by>
+        <sys_created_on>2018-01-02 09:31:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>45955753dbdf8f00342ef3571d961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>unily_test_useraaccount_credentials_added_to_last_pass</sys_name>
+        <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
+        <sys_update_name>sys_ui_policy_action_45955753dbdf8f00342ef3571d961932</sys_update_name>
+        <sys_updated_by>fge.shay</sys_updated_by>
+        <sys_updated_on>2018-01-02 09:31:32</sys_updated_on>
+        <table>x_brig3_client_con_client_configuration</table>
+        <ui_policy display_value="General pre-requisites Mandatory Fields">03b31d85db8f0700342ef3571d9619ac</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>
