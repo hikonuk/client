@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>show_general</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Show/Hide General Pre-Req Fields</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	if (newValue == 'true'){
+		var hosting = g_form.getValue('hosting_type');
+		var twitter = g_form.getValue('twitter_feed_required');
+		var social = g_form.getValue('social');
+		if ((hosting == 'Cloud - Hub') || (hosting == 'Cloud - Hub and Engage')){
+			g_form.setDisplay('is_office_graph_enabled',true);
+			g_form.setDisplay('sharepoint_tenant_url',true);
+		}
+		if (twitter == 'Yes'){
+			g_form.setDisplay('twitter_consumer_key',true);
+			g_form.setDisplay('twitter_consumer_secret',true);
+			g_form.setDisplay('twitter_access_token',true);
+			g_form.setDisplay('twitter_access_token_secret',true);
+			g_form.setDisplay('twitter_account_name',true);
+		}
+		if (social == 'Yammer'){
+			g_form.setDisplay('yammer_network_admin_granted_by_client',true);
+		}
+	}
+	else {
+
+		g_form.setDisplay('is_office_graph_enabled',false);
+		g_form.setDisplay('sharepoint_tenant_url',false);
+		g_form.setDisplay('twitter_consumer_key',false);
+		g_form.setDisplay('twitter_consumer_secret',false);
+		g_form.setDisplay('twitter_access_token',false);
+		g_form.setDisplay('twitter_access_token_secret',false);
+		g_form.setDisplay('twitter_account_name',false);
+		g_form.setDisplay('yammer_network_admin_granted_by_client',false);
+	}
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>shay.faingold@hikon.co.uk</sys_created_by>
+        <sys_created_on>2019-02-14 23:14:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>93ba9ffedb6fe740342ef3571d961972</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Show/Hide General Pre-Req Fields</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
+        <sys_update_name>sys_script_client_93ba9ffedb6fe740342ef3571d961972</sys_update_name>
+        <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
+        <sys_updated_on>2019-02-14 23:54:02</sys_updated_on>
+        <table>x_brig3_client_con_client_configuration</table>
+        <type>onChange</type>
+        <ui_type>1</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

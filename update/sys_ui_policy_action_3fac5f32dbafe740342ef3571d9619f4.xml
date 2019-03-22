@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>user_sync_configuration_requirements</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>shay.faingold@hikon.co.uk</sys_created_by>
+        <sys_created_on>2019-02-14 23:23:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3fac5f32dbafe740342ef3571d9619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>user_sync_configuration_requirements</sys_name>
+        <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
+        <sys_update_name>sys_ui_policy_action_3fac5f32dbafe740342ef3571d9619f4</sys_update_name>
+        <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
+        <sys_updated_on>2019-02-14 23:23:23</sys_updated_on>
+        <table>x_brig3_client_con_client_configuration</table>
+        <ui_policy display_value="Show/Hide General Pre-requisites Fields">6f7b1ffedb6fe740342ef3571d961996</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

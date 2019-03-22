@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="General pre-requisites" section_id="50d54655db2f6740c6459635db961959" sys_domain="global" table="x_brig3_client_con_client_configuration" version="3" view="portal">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>304ca50fdba32b40342ef3571d961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <text>This section should be completed by Support</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>304ca50fdba32b40342ef3571d961973</element>
+            <position>0</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>f04ca50fdba32b40342ef3571d961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>general_pre_requisites_status</element>
+            <position>1</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>744ca50fdba32b40342ef3571d961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>general_pre_requisites</element>
+            <position>2</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>f44ca50fdba32b40342ef3571d961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>show_general</element>
+            <position>3</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>784ca50fdba32b40342ef3571d961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>primary_browser_s_with_versions_at_organization</element>
+            <position>4</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>f84ca50fdba32b40342ef3571d961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_ad_user_rights_assignment_enabled</element>
+            <position>5</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>7c4ca50fdba32b40342ef3571d961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>unily_sync_service_account_username</element>
+            <position>6</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>fc4ca50fdba32b40342ef3571d961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>unily_sync_service_account_privileges</element>
+            <position>7</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>704ca50fdba32b40342ef3571d961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>unily_test_useraaccount_credentials_added_to_last_pass</element>
+            <position>8</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>f04ca50fdba32b40342ef3571d961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sharepoint_tenant_url</element>
+            <position>9</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>744ca50fdba32b40342ef3571d961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>twitter_consumer_key</element>
+            <position>10</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>f44ca50fdba32b40342ef3571d961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>twitter_consumer_secret</element>
+            <position>11</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>784ca50fdba32b40342ef3571d961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>twitter_access_token</element>
+            <position>12</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>f84ca50fdba32b40342ef3571d961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>twitter_access_token_secret</element>
+            <position>13</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>7c4ca50fdba32b40342ef3571d961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>twitter_account_name</element>
+            <position>14</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>fc4ca50fdba32b40342ef3571d961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>yammer_network_admin_granted_by_client</element>
+            <position>15</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>704ca50fdba32b40342ef3571d961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>search_schema_properties_configured</element>
+            <position>16</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>f04ca50fdba32b40342ef3571d961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_sync_configuration_requirements</element>
+            <position>17</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>744ca50fdba32b40342ef3571d961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_sync_configured</element>
+            <position>18</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>f44ca50fdba32b40342ef3571d961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>term_sync_configuration_requirements</element>
+            <position>19</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>784ca50fdba32b40342ef3571d961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>term_sync_configured</element>
+            <position>20</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:41</sys_created_on>
+            <sys_id>f84ca50fdba32b40342ef3571d961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>General pre-requisites</caption>
+            <header>false</header>
+            <name>x_brig3_client_con_client_configuration</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>shay.faingold@hikon.co.uk</sys_created_by>
+            <sys_created_on>2019-02-10 01:12:59</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50d54655db2f6740c6459635db961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>General pre-requisites</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
+            <sys_update_name>sys_ui_section_50d54655db2f6740c6459635db961959</sys_update_name>
+            <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
+            <sys_updated_on>2019-02-10 01:12:59</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Homepage" name="portal">73811531db3222000eff79600f9619ae</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

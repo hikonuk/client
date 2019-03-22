@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function ($scope, spUtil) {
+		
+	spUtil.recordWatch($scope, $scope.data.table, "sys_id=" + $scope.data.sys_id); 
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.options-btn {
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.ticket-fields {
+  margin-left: -7px;
+  margin-right: -8px;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  
+  dt {
+    //font-weight: normal;
+    //margin-bottom: 10px;
+  }
+  dd {
+   // margin-bottom: 10px;
+  }
+}
+div.divider {
+  padding-top: 1px;
+  background-color: black;
+}
+div.value_divider {
+//  padding-top: 1px;
+}
+.white {
+  color: transparent;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>hikon_-_kb_display</id>
+        <internal>false</internal>
+        <link/>
+        <name>Hikon - KB display</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function(){
+	data.name_field = '';
+	data.pickupMsg = gs.getMessage(options.pickup_msg);
+	var gr = $sp.getRecord();
+	if (gr == null)
+		return;
+	
+	data.canRead = gr.canRead();
+	if (!data.canRead) 
+		return;
+	
+	data.isConfig = getConfig();
+	
+	function getConfig() {
+		var clientConfig = new GlideRecord('x_brig3_client_con_client_configuration');
+		clientConfig.addQuery('active',true);
+		clientConfig.addQuery('company',gs.getUser().getCompanyID());
+		clientConfig.query();
+		
+		if(clientConfig.next()){
+			return true;
+		}
+		else {
+		return false;
+		}
+	}
+
+	var table = 'x_brig3_client_con_knowledge_link';
+	var fields = $sp.getFields(gr, 'number'); //,state,priority,sys_created_on');
+  var link = '?id=kb_article&sys_id=';
+	var appItems = new GlideRecord(table);
+	data.kbFields = [];
+	var kbField = [];
+	appItems.addQuery('active','true');
+	appItems.orderBy('order');
+	appItems.query();
+	
+	while (appItems.next()) {
+		kbField = {
+			name: appItems.name.getDisplayValue(),
+			link: appItems.getValue('knowledge')
+		};
+		data.kbFields.push(kbField);
+	}
+	data.tableLabel = gr.getLabel();
+	data.fields = fields;
+	data.variables = $sp.getVariablesArray();
+	data.agentPossible = gr.isValidField("assigned_to");
+	data.table = gr.getTableName();
+	data.sys_id = gr.getUniqueValue();
+})()
+
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>shay.faingold@hikon.co.uk</sys_created_by>
+        <sys_created_on>2019-02-12 23:18:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>66780156db2ba740342ef3571d96194e</sys_id>
+        <sys_mod_count>134</sys_mod_count>
+        <sys_name>Hikon - KB display</sys_name>
+        <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
+        <sys_update_name>sp_widget_66780156db2ba740342ef3571d96194e</sys_update_name>
+        <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
+        <sys_updated_on>2019-02-14 22:12:15</sys_updated_on>
+        <template><![CDATA[<div ng-if="data.canRead && data.isConfig" class="panel b">
+  <div class="panel-heading bg-primary panel-la-jolla-default">
+    <div ng-init="spSearch.targetRequests()">
+      <sp-c-link target="form" table="data.table" id="data.sys_id"/>
+    </div>
+    <h2 class="sr-only">${Ticket details}</h2>
+    <span>Knowledge links</span>
+  </div>
+  <div class="panel-body">
+  
+<ul class="list-group" ng-repeat="item in data.kbFields">
+  <a class="list-group-item" href="?id=kb_article&sys_id={{item.link}}">{{item.name}}</a>
+</ul>]]></template>
+    </sp_widget>
+</record_update>

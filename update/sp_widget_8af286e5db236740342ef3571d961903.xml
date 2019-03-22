@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function ($scope, spUtil) {
+		
+	spUtil.recordWatch($scope, $scope.data.table, "sys_id=" + $scope.data.sys_id); 
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.options-btn {&#13;
+    border:none;&#13;
+    background-image:none;&#13;
+    background-color:transparent;&#13;
+    -webkit-box-shadow: none;&#13;
+    -moz-box-shadow: none;&#13;
+    box-shadow: none;&#13;
+}&#13;
+&#13;
+.ticket-fields {&#13;
+  margin-left: -7px;&#13;
+  margin-right: -8px;&#13;
+  -webkit-margin-before: 0;&#13;
+  -webkit-margin-after: 0;&#13;
+  &#13;
+  dt {&#13;
+    //font-weight: normal;&#13;
+    margin-bottom: 10px;&#13;
+  }&#13;
+  dd {&#13;
+    margin-bottom: 10px;&#13;
+  }&#13;
+}&#13;
+div.divider {&#13;
+  padding-top: 1px;&#13;
+  background-color: black;&#13;
+}&#13;
+div.value_divider {&#13;
+  padding-top: 1px;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>hikon_-_form_display</id>
+        <internal>false</internal>
+        <link/>
+        <name>Hikon - Form display</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function(){
+	data.pickupMsg = gs.getMessage(options.pickup_msg);
+	var gr = $sp.getRecord();
+	if (gr == null)
+		return;
+	
+	data.canRead = gr.canRead();
+	if (!data.canRead) 
+		return;
+	
+	data.isConfig = getConfig();
+	
+	function getConfig() {
+		var clientConfig = new GlideRecord('x_brig3_client_con_client_configuration');
+		clientConfig.addQuery('active',true);
+		clientConfig.addQuery('company',gs.getUser().getCompanyID());
+		clientConfig.query();
+		
+		if(clientConfig.next()){
+			return true;
+		}
+		else {
+		return false;
+		}
+	}
+
+	var table = 'x_brig3_client_con_application_items';
+	var parentRecord = gr.getValue('sys_id');
+	var fields = $sp.getFields(gr, 'number'); //,state,priority,sys_created_on');
+
+	var appItems = new GlideRecord(table);
+	appItems.addQuery('client_configuration',parentRecord);
+	appItems.query();
+	
+	while (appItems.next()) {
+		fields.push($sp.getField(appItems,'name'));
+		fields.push($sp.getField(appItems,'environment'));
+		fields.push($sp.getField(appItems,'id'));
+		fields.push($sp.getField(appItems,'purpose'));
+		fields.push($sp.getField(appItems,'type'));
+	}
+	
+	data.tableLabel = gr.getLabel();
+	data.fields = fields;
+	data.variables = $sp.getVariablesArray();
+	data.agentPossible = gr.isValidField("assigned_to");
+	data.table = gr.getTableName();
+	data.sys_id = gr.getUniqueValue();
+})()
+
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>shay.faingold@hikon.co.uk</sys_created_by>
+        <sys_created_on>2019-02-10 19:39:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8af286e5db236740342ef3571d961903</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_name>Hikon - Form display</sys_name>
+        <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
+        <sys_update_name>sp_widget_8af286e5db236740342ef3571d961903</sys_update_name>
+        <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
+        <sys_updated_on>2019-02-10 21:05:19</sys_updated_on>
+        <template><![CDATA[<div ng-if="data.canRead && data.isConfig" class="panel b">
+  <div class="panel-heading bg-primary panel-la-jolla-default">
+    <div ng-init="spSearch.targetRequests()">
+      <sp-c-link target="form" table="data.table" id="data.sys_id"/>
+    </div>
+    <h2 class="sr-only">${Ticket details}</h2>
+    <span>Application items</span>
+  </div>
+
+  <div class="panel-body">
+    <dl class="ticket-fields" ng-if="data.fields.length > 0">
+        <dt class= "col-md-6 col-sm-12 col-xs-6 break-word" 
+            ng-if="field.value && (field.type != 'decimal' || field.type == 'decimal' && field.value != 0)" 
+            ng-repeat-start="field in data.fields">
+          <div class="divider" ng-if="field.label == 'Name'"></div>
+          {{field.label}}
+      </dt>
+        <dd class= "col-md-6 col-sm-12 col-xs-6 break-word" 
+            ng-repeat-end ng-switch="field.type" 
+            ng-if="field.value && (field.type != 'decimal' || field.type == 'decimal' && field.value != 0)">
+          <div ng-switch-when="glide_date_time" title="{{field.display_value}}">
+            <sn-time-ago timestamp="::field.value" />
+          </div>
+          <div class="value_divider" ng-if="field.label == 'Name'"></div>
+          <div ng-switch-default >{{field.display_value}}</div>
+        </dd>
+    </dl>
+</div>]]></template>
+    </sp_widget>
+</record_update>

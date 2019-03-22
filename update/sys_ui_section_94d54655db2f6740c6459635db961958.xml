@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="94d54655db2f6740c6459635db961958" sys_domain="global" table="x_brig3_client_con_client_configuration" version="3" view="portal">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>6c4ca50fdba32b40342ef3571d961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <text>Company Overview</text>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>604ca50fdba32b40342ef3571d96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <text>This section should be completed by the CSM</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>644ca50fdba32b40342ef3571d96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <text>Features to be enabled:</text>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>684ca50fdba32b40342ef3571d96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <text>This section should be completed by the CSM</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>6c4ca50fdba32b40342ef3571d96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <text>service-now.com/nav_to.do?uri=%2Fkb_view.do%3Fsysparm_article%3DKB0010699</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>0</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>204ca50fdba32b40342ef3571d96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>1</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>a04ca50fdba32b40342ef3571d96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>6c4ca50fdba32b40342ef3571d961949</element>
+            <position>2</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>244ca50fdba32b40342ef3571d96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>604ca50fdba32b40342ef3571d96194a</element>
+            <position>3</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>a44ca50fdba32b40342ef3571d96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>4</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>284ca50fdba32b40342ef3571d96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>5</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>a84ca50fdba32b40342ef3571d96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hosting_type</element>
+            <position>6</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>2c4ca50fdba32b40342ef3571d96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>technical_point_of_contact</element>
+            <position>7</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>ac4ca50fdba32b40342ef3571d96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>target_staging_release_date</element>
+            <position>8</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>204ca50fdba32b40342ef3571d96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>target_production_release_date</element>
+            <position>9</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>a04ca50fdba32b40342ef3571d96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>office_365_data_center_location_existing</element>
+            <position>10</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>244ca50fdba32b40342ef3571d96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>office_365_registered_address_in_company_organizational_profile</element>
+            <position>11</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>a44ca50fdba32b40342ef3571d96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>azure_data_centre_location</element>
+            <position>12</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>284ca50fdba32b40342ef3571d96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>13</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>a84ca50fdba32b40342ef3571d96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>go_live_date</element>
+            <position>14</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>2c4ca50fdba32b40342ef3571d96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>go_live_user_base_size</element>
+            <position>15</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>ac4ca50fdba32b40342ef3571d96194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phase_2_go_live_date</element>
+            <position>16</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>204ca50fdba32b40342ef3571d96194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phase_2_go_live_user_base_size</element>
+            <position>17</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>a04ca50fdba32b40342ef3571d96194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phase_3_go_live_date</element>
+            <position>18</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>244ca50fdba32b40342ef3571d96194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phase_3_go_live_user_base_size</element>
+            <position>19</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>a44ca50fdba32b40342ef3571d96194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>20</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>284ca50fdba32b40342ef3571d96194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>21</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>a84ca50fdba32b40342ef3571d96194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>default_language</element>
+            <position>22</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>2c4ca50fdba32b40342ef3571d96194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_languages</element>
+            <position>23</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>ac4ca50fdba32b40342ef3571d96194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>24</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>204ca50fdba32b40342ef3571d96194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>25</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>a04ca50fdba32b40342ef3571d96194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>644ca50fdba32b40342ef3571d96194a</element>
+            <position>26</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>244ca50fdba32b40342ef3571d96194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>684ca50fdba32b40342ef3571d96194a</element>
+            <position>27</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>a44ca50fdba32b40342ef3571d96194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>28</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>284ca50fdba32b40342ef3571d96194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notifications</element>
+            <position>29</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>a84ca50fdba32b40342ef3571d96194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>social</element>
+            <position>30</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>2c4ca50fdba32b40342ef3571d96194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_top_contributors_widget_required</element>
+            <position>31</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>ac4ca50fdba32b40342ef3571d96194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gamification</element>
+            <position>32</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>204ca50fdba32b40342ef3571d96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>unily_documents</element>
+            <position>33</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>a04ca50fdba32b40342ef3571d96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>twitter_feed_required</element>
+            <position>34</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>244ca50fdba32b40342ef3571d96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mandatory_reads</element>
+            <position>35</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>a44ca50fdba32b40342ef3571d96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_modern_social_ui</element>
+            <position>36</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>284ca50fdba32b40342ef3571d96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>6c4ca50fdba32b40342ef3571d96194a</element>
+            <position>37</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>a84ca50fdba32b40342ef3571d96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>38</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>2c4ca50fdba32b40342ef3571d96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>auto_create_insight_users</element>
+            <position>39</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>ac4ca50fdba32b40342ef3571d96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>personalisation</element>
+            <position>40</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>204ca50fdba32b40342ef3571d961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>content_targeting</element>
+            <position>41</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>a04ca50fdba32b40342ef3571d961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>combined_target_logic</element>
+            <position>42</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>244ca50fdba32b40342ef3571d961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>external_security_group_providers</element>
+            <position>43</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>a44ca50fdba32b40342ef3571d961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_kudos</element>
+            <position>44</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>284ca50fdba32b40342ef3571d961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_external_invites</element>
+            <position>45</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>a84ca50fdba32b40342ef3571d961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_of_licensed_users</element>
+            <position>46</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>2c4ca50fdba32b40342ef3571d961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_prod_sync_app_id</element>
+            <position>47</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>ac4ca50fdba32b40342ef3571d961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_office_graph_enabled</element>
+            <position>48</position>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-15 09:50:40</sys_created_on>
+            <sys_id>204ca50fdba32b40342ef3571d961951</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_brig3_client_con_client_configuration</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>shay.faingold@hikon.co.uk</sys_created_by>
+            <sys_created_on>2019-02-10 01:12:59</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94d54655db2f6740c6459635db961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_brig3_client_con_client_configuration</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
+            <sys_update_name>sys_ui_section_94d54655db2f6740c6459635db961958</sys_update_name>
+            <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
+            <sys_updated_on>2019-02-10 01:12:59</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Homepage" name="portal">73811531db3222000eff79600f9619ae</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

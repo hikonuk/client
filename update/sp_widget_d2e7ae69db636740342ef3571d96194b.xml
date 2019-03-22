@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($interval, $scope, $rootScope, nowAttachmentHandler, $timeout, spUtil, snRecordWatcher, spModal, $location) {
+  /* widget controller */
+  var c = this;
+	
+	$scope.sizeLimit = 1024 * 1024 * 24; // 24MB 
+	$scope.errorMessages = [];
+  $scope.attachmentHandler = new nowAttachmentHandler(setAttachments, appendError);
+  $scope.data.action = "";
+	$scope.show_help = c.options.show_help;
+	
+	snRecordWatcher.initList("sys_attachment", "table_sys_id=" + $scope.data.sys_id);
+	
+	$scope.$on('record.updated', function(name, data) {
+    $scope.attachmentHandler.getAttachmentList();
+  });
+	
+	$scope.paste = function (event) {
+		var files = [];
+		var clipData = event.originalEvent.clipboardData;
+		angular.forEach(clipData.items, function (item, key) {
+			if (clipData.items[key].type.match(/image.*/)) { // if it is a image
+				files.push(clipData.items[key].getAsFile());
+				$scope.attachmentHandler.onFileSelect(files);
+			}
+		});
+	};
+	
+  $timeout(function() {
+    $scope.attachmentHandler.setParams($scope.data.table, $scope.data.guid, $scope.sizeLimit);
+    $scope.attachmentHandler.getAttachmentList();
+  });
+	
+	$scope.help = function() {
+		$location.search('id',$scope.options.help_page);
+		$location.search('sys_id',$scope.options.help_sys_id);
+	};
+	
+  $scope.attachments = [];
+  $scope.data.selectedStar = null;
+  $scope.feedback = { text: ''};
+  $scope.textPlaceholder = $scope.options.comment_placeholder_low_rating;
+  $scope.feedbackSubmitting = false;
+  $scope.feedbackSubmitted = false;
+  $scope.allAttachmentsLoaded = false;
+  $scope.starClasses = {
+    '1': 'starUnselected',
+    '2': 'starUnselected',
+    '3': 'starUnselected',
+    '4': 'starUnselected',
+    '5': 'starUnselected'
+  };
+  
+	$scope.submitFeedback = function(feedbackText) {
+	$scope.data.feedbackText = feedbackText;
+	$scope.data.url = $location.absUrl();
+    $scope.feedbackSubmitting = true;
+	spUtil.update($scope);
+	$timeout(function() {
+		$scope.resetForm();
+	},200);
+  };
+  $scope.resetForm = function() {
+    $scope.textPlaceholder = $scope.options.comment_placeholder_low_rating;
+		$scope.attachments = [];
+    $scope.data.selectedStar = null;
+    $scope.feedback.text = '';
+    $scope.feedbackSubmitting = false;
+    $scope.feedbackSubmitted = false;
+    $scope.offStarHover();
+		$('#Automize-Feedback').modal('hide');
+		$scope.data.oldguid = $scope.data.guid;
+		var updateGuid = $interval(function(){
+			if($scope.data.guid != $scope.data.oldguid) {
+				$scope.attachmentHandler.setParams($scope.data.table, $scope.data.guid, $scope.sizeLimit);
+				$scope.attachmentHandler.getAttachmentList();
+				$interval.cancel(updateGuid);
+			}	
+		}, 1000, false);
+  };
+ 
+
+  $scope.setSelectedStars = function(starNumber, setSelected) {
+    if(!setSelected && $scope.data.selectedStar && starNumber <= $scope.data.selectedStar) {
+      return;
+    } else if(setSelected) {
+      $scope.data.selectedStar = starNumber;
+      if(starNumber <= 3) {
+        $scope.textPlaceholder = $scope.options.comment_placeholder_low_rating;
+      } else {
+        $scope.textPlaceholder = $scope.options.comment_placeholder_high_rating;
+      }
+    }
+    for(var i=1; i<=5; i++) {
+      if(i<=starNumber) {
+        $scope.starClasses[String(i)] = 'starSelected';
+      } else {
+        $scope.starClasses[String(i)] = 'starUnselected';
+      }
+    }
+  };
+  $scope.offStarHover = function() {
+    var selectedPoint = 0;
+    if($scope.data.selectedStar) {
+      selectedPoint = $scope.data.selectedStar;
+    }
+    for(var i=1; i<=5; i++) {
+      if(i<=selectedPoint) {
+        $scope.starClasses[String(i)] = 'starSelected';
+      } else {
+        $scope.starClasses[String(i)] = 'starUnselected';
+      }
+    }
+  };
+	
+	$scope.hasAttachments = function() {
+    return $scope.attachments && $scope.attachments.length != 0;
+  };
+
+	$scope.canWrite = function() {
+		return $scope.data.canWrite;
+	};
+
+	$scope.confirmDeleteAttachment = function(attachment) {
+		$('#Automize-Feedback').modal('hide');
+		spModal.confirm("${Delete Attachment?}").then(function() {
+			$scope.attachmentHandler.deleteAttachment(attachment);
+			$('#Automize-Feedback').modal('show');
+		});
+	};
+
+	$scope.$on('dialog.upload_too_large.show', function(e){
+		console.log($scope.data.largeAttachmentMsg);
+		spUtil.addErrorMessage($scope.data.largeAttachmentMsg);
+	});
+
+	$scope.$on('added_attachment', function(evt) {
+		$scope.data.action = "added";
+		spUtil.update($scope);
+	});
+
+	$scope.$on('sp.record.can_write', function(evt, answer) {
+		$scope.data.canWrite = answer;
+	});
+		
+	function appendError(error) {
+		$scope.errorMessages.push(error);
+	}
+
+	function setAttachments(attachments, action) {
+		if ($scope.feedbackSubmitting == true)
+			return;
+
+		$scope.attachments = attachments;
+	}
+	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>div.sticky-btn {
+  bottom: 0;    
+  position: fixed;    
+  right: 20px;
+  z-index: 999; 
+}
+button.stick-btn {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.starRatingContainer {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.starRating {
+	display: inline-block;
+	width: 19%;
+}
+
+.starText {
+	font-size: 13px;
+	margin-bottom: 5px;
+}
+
+.starUnselected, .starSelected {
+	cursor: pointer;
+}
+
+.starUnselected:focus, .starSelected:focus {
+	outline: 0px solid transparent;
+}
+
+.starSelected .starBorder {
+	color: #fcc742;
+}
+
+.starSelected .starFill {
+	color: #ffdb87;
+}
+
+.starBorder {
+	color: #979797;
+}
+
+.starFill {
+	color: #fff;
+}
+
+.feedbackInput {
+	box-shadow: none;
+	color: 1px solid #ccc;
+	padding: 10px 15px 10px 15px;
+	resize: vertical;
+}
+
+.addFeedbackAttachments {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px dashed #cfd4d8;
+	border-radius: 4px;
+	padding: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 13px;
+  color: #717171;
+}
+
+.attachmentListContainer {
+	border: 1px solid #cfd4d8;
+	border-radius: 4px;
+}
+
+.attachmentListRow {
+	padding: 10px 10px 0px 0px;
+	min-height: 62px;
+}
+
+.attachmentIcon, .attachmentLoadingIcon {
+	position: relative;
+	top: 8px;
+	font-size: 30px;
+}
+
+.removeAttachmentIcon, .removeAttachmentIconDisabled {
+	position: relative;
+	top: -3px;
+	font-size: 36px;
+}
+
+.removeAttachmentIconDisabled {
+	color: #979797;
+}
+
+#Automize-Feedback .fa-check-circle {
+	color: #71E279;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>hikon_-_float</id>
+        <internal>false</internal>
+        <link/>
+        <name>Hikon - Float</name>
+        <option_schema>[{"hint":"Show or hide the Help button","name":"show_help","default_value":"true","label":"Show Help","type":"boolean"},{"hint":"Pages to display help","name":"help_page","default_value":"sc_cat_item","label":"Help Page","type":"string"},{"hint":"Sys id of the Record Producer for help","name":"help_sys_id","label":"Help sys_id","type":"string"},{"hint":"Enter the main header for the feedback window","name":"feedback_header","default_value":"Your opinion matters","label":"Feedback Header","type":"string"},{"hint":"Enter the header above the ratings","name":"feedback_rating_header","default_value":"Please rate your Service Portal experience (Required)","label":"Feedback Rating Header","type":"string"},{"hint":"Enter the header above the comment field","name":"feedback_comment_header","default_value":"Enter your feedback here","label":"Feedback Comment Header","type":"string"},{"hint":"The placeholder text for rating 1 - 3 in the comment field","name":"comment_placeholder_low_rating","default_value":"How can we improve your experience?","label":"Comment Placeholder low rating","type":"string"},{"hint":"The placeholder text for rating 4 - 5 in the comment field","name":"comment_placeholder_high_rating","default_value":"Any other comments?","label":"Comment Placeholder high rating","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	data.url_sys_id = $sp.getParameter("sys_id");
+	data.guid = gs.generateGUID();
+	data.largeAttachmentMsg = gs.getMessage("Attached files must be smaller than {0} - please try again", "24MB");
+	data.isConfig = checkConfig();
+	data.isConfigRecord = checkRecord();
+	
+		function checkConfig() {
+		var clientConfig = new GlideRecord('x_brig3_client_con_client_configuration');
+		clientConfig.addQuery('active',true);
+		clientConfig.addQuery('company',gs.getUser().getCompanyID());
+		clientConfig.query();
+		
+		if(clientConfig.next()){
+			return true;
+		}
+			else{
+		return false;
+			}
+	}
+	
+	function checkRecord() {
+		var clientConfig1 = new GlideRecord('x_brig3_client_con_client_configuration');
+		clientConfig1.get(data.url_sys_id);
+		if (clientConfig1.company != ''){
+			return true;
+		}
+		else {
+		return false;
+	}
+	}
+	
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>shay.faingold@hikon.co.uk</sys_created_by>
+        <sys_created_on>2019-02-10 22:20:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d2e7ae69db636740342ef3571d96194b</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Hikon - Float</sys_name>
+        <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
+        <sys_update_name>sp_widget_d2e7ae69db636740342ef3571d96194b</sys_update_name>
+        <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
+        <sys_updated_on>2019-02-11 18:42:27</sys_updated_on>
+        <template><![CDATA[<!-- Buttons trigger modal -->
+<div class="sticky-btn" ng-if="data.isConfig && data.isConfigRecord">
+<!--    <button type="button" class="btn btn-primary stick-btn" data-toggle="modal" data-target="#Automize-Feedback"><i class="fa fa-comment m-r-sm"></i>Feedback</button> -->
+    <button ng-if="options.show_help == 'true'" type="button" class="btn btn-primary stick-btn" data-toggle="modal" data-target="#Automize-Help" ng-click="help();"><i class="fa fa-child m-r-sm"></i>Contact an engineer</button>
+</div>
+ 
+<!-- Feedback Modal -->
+<div class="modal fade" id="Automize-Feedback" tabindex="-1" role="dialog" aria-labelledby="Automize-Feedback">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" ng-paste="paste($event)">
+      <form ng-model="feedback" class="ng-pristine ng-untouched ng-valid ng-not-empty" role="form" aria-invalid="false"> 
+        <div ng-if="!feedbackSubmitted" class="modal-header ng-scope"> 
+          <button ng-disabled="feedbackSubmitting" type="button" class="close" data-dismiss="modal" role="button"><i class="fa fa-times"></i></button> 
+          <h4><i class="fa fa-comment" aria-hidden="true"></i>&nbsp;&nbsp;{{options.feedback_header}}</h4> 
+        </div>
+    <!-- Body --> 
+        <div class="modal-body"> 
+     <div ng-if="!feedbackSubmitted" class="ng-scope"> 
+      <!-- Rating --> 
+      <label for="feedbackText"><strong>{{options.feedback_rating_header}}</strong></label> 
+      <div class="starRatingContainer"> 
+       <!-- 1 Star --> 
+       <div class="starRating"> 
+        <div class="starText hidden-xs">
+         Extremely
+         <br>dissatisfied
+        </div> 
+        <span class="fa-stack fa-lg starSelected" ng-class="starClasses['1']" ng-click="setSelectedStars(1, true)" ng-mouseover="setSelectedStars(1)" ng-mouseleave="offStarHover()" role="button" style=""> <i class="fa fa-star fa-stack-2x starFill"></i> <i class="fa fa-star-o fa-stack-2x starBorder"></i> </span> 
+       </div> 
+       <!-- 2 Star --> 
+       <div class="starRating"> 
+        <div class="starText hidden-xs">
+         Slightly
+         <br>dissatisfied
+        </div> 
+        <span class="fa-stack fa-lg starUnselected" ng-class="starClasses['2']" ng-click="setSelectedStars(2, true)" ng-mouseover="setSelectedStars(2)" ng-mouseleave="offStarHover()" role="button" style=""> <i class="fa fa-star fa-stack-2x starFill"></i> <i class="fa fa-star-o fa-stack-2x starBorder"></i> </span> 
+       </div> 
+       <!-- 3 Star --> 
+       <div class="starRating"> 
+        <div class="starText hidden-xs">
+         Neither
+         <br>satisfied nor
+         <br>dissatisfied
+        </div> 
+        <span class="fa-stack fa-lg starUnselected" ng-class="starClasses['3']" ng-click="setSelectedStars(3, true)" ng-mouseover="setSelectedStars(3)" ng-mouseleave="offStarHover()" role="button" style=""> <i class="fa fa-star fa-stack-2x starFill"></i> <i class="fa fa-star-o fa-stack-2x starBorder"></i> </span> 
+       </div> 
+       <!-- 4 Star --> 
+       <div class="starRating"> 
+        <div class="starText hidden-xs">
+         Moderately
+         <br>satisfied
+        </div> 
+        <span class="fa-stack fa-lg starUnselected" ng-class="starClasses['4']" ng-click="setSelectedStars(4, true)" ng-mouseover="setSelectedStars(4)" ng-mouseleave="offStarHover()" role="button" style=""> <i class="fa fa-star fa-stack-2x starFill"></i> <i class="fa fa-star-o fa-stack-2x starBorder"></i> </span> 
+       </div> 
+       <!-- 5 Star --> 
+       <div class="starRating"> 
+        <div class="starText hidden-xs">
+         Extremely
+         <br>satisfied
+        </div> 
+        <span class="fa-stack fa-lg starUnselected" ng-class="starClasses['5']" ng-click="setSelectedStars(5, true)" ng-mouseover="setSelectedStars(5)" ng-mouseleave="offStarHover()" role="button" style=""> <i class="fa fa-star fa-stack-2x starFill"></i> <i class="fa fa-star-o fa-stack-2x starBorder"></i> </span> 
+       </div> 
+      </div> 
+      <!-- Text entry --> 
+      <label for="feedbackTextInput"><strong>{{options.feedback_comment_header}}</strong></label> 
+      <textarea name="feedbackTextInput" id="feedbackTextInput" ng-model="feedback.text" class="form-control feedbackInput ng-pristine ng-untouched ng-valid ng-empty" placeholder="{{textPlaceholder}}" role="textbox" aria-invalid="false"></textarea> 
+      <!-- Attachments --> 
+      <!-- (hidden on small devices) attachmentHandler.openSelector openAttachFileDialog--> 
+      <div class="hidden-xs hidden-sm" ng-multiple="true" ng-file-drop="attachmentHandler.onFileSelect($files)" id="feedbackAttachments"> 
+       <div class="addFeedbackAttachments">
+        <a href="javascript:void(0)" id="attachment_add" ng-click="attachmentHandler.openSelector($event)"><span class="glyphicon glyphicon-paperclip"></span>&nbsp;&nbsp;Add or drop attachments</a>  
+        <input type="file" style="display: none" multiple="true" ng-file-select="attachmentHandler.onFileSelect($files)" class="sp-attachments-input">
+       </div>
+       <now-attachments-list template="sp_attachment" />
+
+      </div> 
+     </div>
+    </div> 
+    <!-- Footer --> 
+    <div ng-if="!feedbackSubmitted" class="modal-footer ng-scope"> 
+     <button type="button" ng-disabled="feedbackSubmitting" class="btn btn-default" data-dismiss="modal" role="button">Cancel</button> 
+     <button ng-disabled="!data.selectedStar || feedbackSubmitting" ng-click="submitFeedback(feedback.text)" type="button" class="btn btn-primary" role="button">Send</button> 
+    </div>
+   </form>
+    </div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

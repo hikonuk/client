@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Application items" max_length="40" name="x_brig3_client_con_application_items" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Client Configuration" max_length="32" name="client_configuration" reference="x_brig3_client_con_client_configuration" type="reference"/>
+        <element choice="3" label="Environment" max_length="40" name="environment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="QA" sequence="100" value="qa"/>
+                <element inactive_on_update="false" label="Staging" sequence="200" value="staging"/>
+                <element inactive_on_update="false" label="Production" sequence="300" value="production"/>
+            </choice>
+        </element>
+        <element label="Id" max_length="80" name="id" type="string"/>
+        <element display="true" label="Name" max_length="80" name="name" type="string"/>
+        <element choice="3" label="Purpose" max_length="40" name="purpose" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="User Sync" sequence="100" value="user_sync"/>
+                <element inactive_on_update="false" label="Team Sync" sequence="200" value="team_sync"/>
+                <element inactive_on_update="false" label="Authentication" sequence="300" value="authentication"/>
+            </choice>
+        </element>
+        <element label="Secret" max_length="80" name="secret" type="string"/>
+        <element label="Secret Expiry" max_length="40" name="secret_expiry" type="glide_date"/>
+        <element label="Tenant id" max_length="80" name="tenant_id" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AzureAD" sequence="100" value="azure_ad"/>
+                <element inactive_on_update="false" label="Sharepoint" sequence="200" value="sharepoint"/>
+                <element inactive_on_update="false" label="Google" sequence="300" value="google"/>
+                <element inactive_on_update="false" label="Liknedin" sequence="400" value="linkedin"/>
+                <element inactive_on_update="false" label="Facebook" sequence="500" value="facebook"/>
+                <element inactive_on_update="false" label="Other" sequence="600" value="other"/>
+            </choice>
+        </element>
+        <element label="URL" max_length="80" name="url" type="string"/>
+        <index name="index">
+            <element name="client_configuration"/>
+        </index>
+    </element>
+</database>

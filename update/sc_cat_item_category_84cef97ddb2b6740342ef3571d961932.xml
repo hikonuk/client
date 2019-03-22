@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Application item">80ce797ddb2b6740342ef3571d96195c</sc_cat_item>
+        <sc_category display_value="Client Configuration">cc82c55ddb6b6740c6459635db9619bb</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>shay.faingold@hikon.co.uk</sys_created_by>
+        <sys_created_on>2019-02-11 13:59:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>84cef97ddb2b6740342ef3571d961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Client Configuration.Application item</sys_name>
+        <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
+        <sys_update_name>sc_cat_item_category_84cef97ddb2b6740342ef3571d961932</sys_update_name>
+        <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
+        <sys_updated_on>2019-02-11 13:59:04</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="staging_pre_requisites_status" label="Staging pre-req status - set to 'ready for engineer review' when complete" language="en" table="x_brig3_client_con_client_configuration">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>staging_pre_requisites_status</element>
+            <help/>
+            <hint/>
+            <label>Staging pre-req status - set to 'ready for engineer review' when complete</label>
+            <language>en</language>
+            <name>x_brig3_client_con_client_configuration</name>
+            <plural>Staging pre-req status - set to 'ready for engineer review' when completes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Matt.Parker@brightstarr.com</sys_created_by>
+            <sys_created_on>2019-02-14 13:17:52</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>46125db2db6be740342ef3571d96193f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Staging pre-req status - set to 'ready for engineer review' when complete</sys_name>
+            <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
+            <sys_update_name>sys_documentation_x_brig3_client_con_client_configuration_staging_pre_requisites_status_en</sys_update_name>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:50:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -3,21 +3,21 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>certificate_password_added_to_last_pass</field>
-        <mandatory>true</mandatory>
+        <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>fge.shay</sys_created_by>
         <sys_created_on>2017-12-30 19:48:49</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>36164222db9b4f00342ef3571d96193f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>certificate_password_added_to_last_pass</sys_name>
         <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
         <sys_update_name>sys_ui_policy_action_36164222db9b4f00342ef3571d96193f</sys_update_name>
-        <sys_updated_by>fge.shay</sys_updated_by>
-        <sys_updated_on>2017-12-30 19:48:49</sys_updated_on>
+        <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
+        <sys_updated_on>2019-02-10 23:51:48</sys_updated_on>
         <table>x_brig3_client_con_client_configuration</table>
         <ui_policy display_value="Show / Hide Certificate Password added to Last Pass">8ff5ceeedb5b4f00342ef3571d9619f8</ui_policy>
         <visible>true</visible>

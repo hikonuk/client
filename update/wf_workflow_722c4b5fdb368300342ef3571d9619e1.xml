@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <activity_stages>{"ends":["301955c6db512700c6459635db96193d"],"subflows":[],"stages":{},"activities":{}}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
@@ -31,9 +31,9 @@
         <sys_created_by>dashboard</sys_created_by>
         <sys_created_on>2018-10-23 09:31:40</sys_created_on>
         <sys_id>3c1955c6db512700c6459635db961936</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>dashboard</sys_updated_by>
-        <sys_updated_on>2018-10-23 09:32:07</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
+        <sys_updated_on>2019-02-08 12:41:14</sys_updated_on>
         <table>x_brig3_client_con_client_configuration</table>
         <timezone/>
         <validated>false</validated>

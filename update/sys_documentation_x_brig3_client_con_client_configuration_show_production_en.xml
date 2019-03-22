@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="show_production" label="Show Production fields" language="en" table="x_brig3_client_con_client_configuration">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>show_production</element>
+            <help/>
+            <hint/>
+            <label>Show Production fields</label>
+            <language>en</language>
+            <name>x_brig3_client_con_client_configuration</name>
+            <plural>Show Production fields</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>shay.faingold@hikon.co.uk</sys_created_by>
+            <sys_created_on>2019-02-12 22:47:41</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d9510152db2ba740342ef3571d961914</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Show Production fields</sys_name>
+            <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
+            <sys_update_name>sys_documentation_x_brig3_client_con_client_configuration_show_production_en</sys_update_name>
+            <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
+            <sys_updated_on>2019-02-15 09:48:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

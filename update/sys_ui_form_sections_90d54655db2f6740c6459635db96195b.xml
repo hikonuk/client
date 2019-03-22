@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="90d54655db2f6740c6459635db96195b" sys_domain="global" table="x_brig3_client_con_client_configuration" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>shay.faingold@hikon.co.uk</sys_created_by>
+            <sys_created_on>2019-02-10 01:12:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28d54655db2f6740c6459635db96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_brig3_client_con_client_configuration" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">90d54655db2f6740c6459635db96195b</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">94d54655db2f6740c6459635db961958</sys_ui_section>
+            <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
+            <sys_updated_on>2019-02-10 01:12:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>shay.faingold@hikon.co.uk</sys_created_by>
+            <sys_created_on>2019-02-10 01:12:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0d54655db2f6740c6459635db96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_brig3_client_con_client_configuration" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">90d54655db2f6740c6459635db96195b</sys_ui_form>
+            <sys_ui_section caption="General pre-requisites" display_value="General pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">50d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
+            <sys_updated_on>2019-02-10 01:12:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>shay.faingold@hikon.co.uk</sys_created_by>
+            <sys_created_on>2019-02-10 01:12:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>68d54655db2f6740c6459635db9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_brig3_client_con_client_configuration" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">90d54655db2f6740c6459635db96195b</sys_ui_form>
+            <sys_ui_section caption="Staging pre-requisites" display_value="Staging pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">18d54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
+            <sys_updated_on>2019-02-10 01:12:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>shay.faingold@hikon.co.uk</sys_created_by>
+            <sys_created_on>2019-02-10 01:12:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24d54655db2f6740c6459635db9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_brig3_client_con_client_configuration" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">90d54655db2f6740c6459635db96195b</sys_ui_form>
+            <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="73811531db3222000eff79600f9619ae">dcd54655db2f6740c6459635db961959</sys_ui_section>
+            <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
+            <sys_updated_on>2019-02-10 01:12:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_brig3_client_con_client_configuration</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>shay.faingold@hikon.co.uk</sys_created_by>
+            <sys_created_on>2019-02-10 01:12:59</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90d54655db2f6740c6459635db96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_brig3_client_con_client_configuration</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
+            <sys_update_name>sys_ui_form_sections_90d54655db2f6740c6459635db96195b</sys_update_name>
+            <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
+            <sys_updated_on>2019-02-10 01:12:59</sys_updated_on>
+            <sys_user/>
+            <view display_value="Homepage" name="portal">73811531db3222000eff79600f9619ae</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
