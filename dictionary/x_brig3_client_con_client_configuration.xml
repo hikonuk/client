@@ -5,21 +5,21 @@
         <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" reference_qual="active=true^company=aca27872db9b62008085f9d10f961900^EQ" reference_qual_condition="active=true^company=aca27872db9b62008085f9d10f961900^EQ" type="reference"/>
         <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
         <element label="Auto Create Insight Users" max_length="40" name="auto_create_insight_users" type="boolean"/>
-        <element active="false" hint="e.g. abbd31ed-5f83-4365-9d78-e6fbcefc3890" label="Azure App Client ID CMS" max_length="40" name="azure_app_client_id_cms" type="string"/>
-        <element active="false" hint="e.g. abbd31ed-5f83-4365-9d78-e6fbcefc3890" label="Azure App Client ID Production" max_length="40" name="azure_app_client_id_production" type="string"/>
-        <element active="false" hint="e.g. abbd31ed-5f83-4365-9d78-e6fbcefc3890" label="Azure App Client ID Staging" max_length="40" name="azure_app_client_id_staging" type="string"/>
-        <element active="false" hint="e.g. SXy2GknOIkV0ZPV9FTfLLvBh" label="Azure App Client Secret CMS" max_length="120" name="azure_app_client_secret_cms" type="string"/>
-        <element active="false" hint="e.g. dd-mm-yyyy" label="Azure App Client Secret Expiry CMS" max_length="40" name="azure_app_client_secret_expiry_cms" type="glide_date"/>
-        <element active="false" hint="e.g. dd-mm-yyyy" label="Azure App Client Secret Expiry Production" max_length="40" name="azure_app_client_secret_expiry_production" type="glide_date"/>
-        <element active="false" hint="e.g. dd-mm-yyyy" label="Azure App Client Secret Expiry Staging" max_length="40" name="azure_app_client_secret_expiry_staging" type="glide_date"/>
-        <element active="false" hint="e.g. SXy2GknOIkV0ZPV9FTfLLvBh" label="Azure App Client Secret Production" max_length="120" name="azure_app_client_secret_production" type="string"/>
+        <element hint="e.g. abbd31ed-5f83-4365-9d78-e6fbcefc3890" label="Azure App Client ID CMS" max_length="40" name="azure_app_client_id_cms" type="string"/>
+        <element hint="e.g. abbd31ed-5f83-4365-9d78-e6fbcefc3890" label="Azure App Client ID Production" max_length="40" name="azure_app_client_id_production" type="string"/>
+        <element hint="e.g. abbd31ed-5f83-4365-9d78-e6fbcefc3890" label="Azure App Client ID Staging" max_length="40" name="azure_app_client_id_staging" type="string"/>
+        <element hint="e.g. SXy2GknOIkV0ZPV9FTfLLvBh" label="Azure App Client Secret CMS" max_length="120" name="azure_app_client_secret_cms" type="string"/>
+        <element hint="e.g. dd-mm-yyyy" label="Azure App Client Secret Expiry CMS" max_length="40" name="azure_app_client_secret_expiry_cms" type="glide_date"/>
+        <element hint="e.g. dd-mm-yyyy" label="Azure App Client Secret Expiry Production" max_length="40" name="azure_app_client_secret_expiry_production" type="glide_date"/>
+        <element hint="e.g. dd-mm-yyyy" label="Azure App Client Secret Expiry Staging" max_length="40" name="azure_app_client_secret_expiry_staging" type="glide_date"/>
+        <element hint="e.g. SXy2GknOIkV0ZPV9FTfLLvBh" label="Azure App Client Secret Production" max_length="120" name="azure_app_client_secret_production" type="string"/>
         <element active="false" hint="e.g. SXy2GknOIkV0ZPV9FTfLLvBh" label="Azure App Client Secret Staging" max_length="120" name="azure_app_client_secret_staging" type="string"/>
-        <element active="false" hint="e.g. e6f27451-899d-4d0d-b8fa-88baafa551a7" label="Azure App OAuth 2.0 Endpoint URI CMS" max_length="40" name="azure_app_oauth_2_0_endpoint_uri_cms" type="string"/>
-        <element active="false" hint="e.g. e6f27451-899d-4d0d-b8fa-88baafa551a7" label="Azure App OAuth 2.0 Endpoint URI Production" max_length="40" name="azure_app_oauth_2_0_endpoint_uri_production" type="string"/>
+        <element hint="e.g. e6f27451-899d-4d0d-b8fa-88baafa551a7" label="Azure App OAuth 2.0 Endpoint URI CMS" max_length="40" name="azure_app_oauth_2_0_endpoint_uri_cms" type="string"/>
+        <element hint="e.g. e6f27451-899d-4d0d-b8fa-88baafa551a7" label="Azure App OAuth 2.0 Endpoint URI Production" max_length="40" name="azure_app_oauth_2_0_endpoint_uri_production" type="string"/>
         <element active="false" hint="e.g. e6f27451-899d-4d0d-b8fa-88baafa551a7" label="Azure App OAuth 2.0 Endpoint URI Staging" max_length="40" name="azure_app_oauth_2_0_endpoint_uri_staging" type="string"/>
-        <element active="false" hint="e.g. my-cms.client.com" label="Azure App Reply URL CMS" max_length="40" name="azure_app_reply_url_cms" type="string"/>
-        <element active="false" hint="e.g. rockstarrs.unily.com" label="Azure App Reply URL Production" max_length="40" name="azure_app_reply_url_production" type="string"/>
-        <element active="false" hint="e.g. rockstarrsstaging.unily.com" label="Azure App Reply URL Staging" max_length="40" name="azure_app_reply_url_staging" type="string"/>
+        <element hint="e.g. my-cms.client.com" label="Azure App Reply URL CMS" max_length="40" name="azure_app_reply_url_cms" type="string"/>
+        <element hint="e.g. rockstarrs.unily.com" label="Azure App Reply URL Production" max_length="40" name="azure_app_reply_url_production" type="string"/>
+        <element hint="e.g. rockstarrsstaging.unily.com" label="Azure App Reply URL Staging" max_length="40" name="azure_app_reply_url_staging" type="string"/>
         <element label="Azure Data Centre Location" max_length="40" name="azure_data_centre_location" type="string"/>
         <element label="Certificate Password added to Last Pass" max_length="40" name="certificate_password_added_to_last_pass" type="boolean"/>
         <element active="false" label="Client Secret" max_length="40" name="client_secret" type="string"/>
@@ -31,16 +31,16 @@
                 <element inactive_on_update="false" label="OR" sequence="200" value="OR"/>
             </choice>
         </element>
-        <element display="true" label="Company" mandatory="true" max_length="32" name="company" reference="core_company" type="reference"/>
+        <element label="Company" mandatory="true" max_length="32" name="company" reference="core_company" type="reference"/>
         <element label="Content Targeting" max_length="40" name="content_targeting" type="boolean"/>
         <element attributes="live_feed=true" label="Conversation" max_length="4000" name="conversation" type="journal_input"/>
         <element label="CSM Owner" max_length="32" name="csm_owner" reference="sys_user" reference_qual="active=true^company=aca27872db9b62008085f9d10f961900^EQ" reference_qual_condition="active=true^company=aca27872db9b62008085f9d10f961900^EQ" type="reference"/>
         <element label="Customer name - for all internal naming purposes" mandatory="true" max_length="40" name="customer_name_for_all_internal_naming_purposes" type="string"/>
-        <element active="false" label="Date of Follow-up Client Call" max_length="40" name="date_of_follow_up_client_call" type="glide_date_time"/>
-        <element active="false" label="Date of Initial Client Call" max_length="40" name="date_of_initial_client_call" type="glide_date_time"/>
-        <element active="false" label="Date of Post-Deployment Client Call" max_length="40" name="date_of_post_deployment_client_call" type="glide_date_time"/>
+        <element label="Date of Follow-up Client Call" max_length="40" name="date_of_follow_up_client_call" type="glide_date_time"/>
+        <element label="Date of Initial Client Call" max_length="40" name="date_of_initial_client_call" type="glide_date_time"/>
+        <element label="Date of Post-Deployment Client Call" max_length="40" name="date_of_post_deployment_client_call" type="glide_date_time"/>
         <element label="Default language (in correct ISO format e.g. en-gb)" max_length="40" name="default_language" type="string"/>
-        <element active="false" label="Ensure client has been informed of Trusted Sites to be added" max_length="40" name="ensure_client_has_been_informed_of_trusted_sites_to_be_added" type="boolean"/>
+        <element label="Ensure client has been informed of Trusted Sites to be added" max_length="40" name="ensure_client_has_been_informed_of_trusted_sites_to_be_added" type="boolean"/>
         <element label="External Security Group Providers" max_length="40" name="external_security_group_providers" type="boolean"/>
         <element label="Gamification" max_length="40" name="gamification" type="boolean"/>
         <element label="General pre-requisites approved and completed - set by Support Engineer" max_length="40" name="general_pre_requisites" read_only="true" type="boolean"/>
@@ -53,7 +53,7 @@
         </element>
         <element label="Go-live date" max_length="40" name="go_live_date" type="glide_date_time"/>
         <element label="Go-live user base size" max_length="10" name="go_live_user_base_size" type="string"/>
-        <element active="false" label="Has Support contacted Client?" max_length="40" name="has_support_contacted_client" type="boolean"/>
+        <element label="Has Support contacted Client?" max_length="40" name="has_support_contacted_client" type="boolean"/>
         <element choice="1" label="Hosting Type - see knowledge base article on the right hand side" max_length="40" name="hosting_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Cloud - Hub" sequence="100" value="Cloud - Hub"/>
@@ -84,8 +84,8 @@
         <element label="Phase 3 Go-live user base size" max_length="10" name="phase_3_go_live_user_base_size" type="string"/>
         <element hint="e.g, rockstarrs.unily.com" label="Portal URL required for Production" max_length="40" name="portal_url_required_for_production" type="string"/>
         <element hint="e.g, rockstarrsstaging.unily.com" label="Portal URL required for Staging" max_length="40" name="portal_url_required_for_staging" type="string"/>
-        <element active="false" label="PowerBI Analytics" max_length="40" name="powerbi_analytics" type="boolean"/>
-        <element active="false" label="Power BI Pro license added to Support Account" max_length="40" name="power_bi_pro_license_added_to_support_account" type="boolean"/>
+        <element label="PowerBI Analytics" max_length="40" name="powerbi_analytics" type="boolean"/>
+        <element label="Power BI Pro license added to Support Account" max_length="40" name="power_bi_pro_license_added_to_support_account" type="boolean"/>
         <element label="Primary browser(s) (with versions) at organization" max_length="4000" name="primary_browser_s_with_versions_at_organization" type="string"/>
         <element choice="1" default="New" label="Production pre-req status - set to 'ready for engineer review' when complete" max_length="40" name="production_pre_requisites_status" type="choice">
             <choice>
@@ -155,15 +155,15 @@
         <element hint="e.g. AWbwe7cKmgIRioZEf4qwmgbL4sdvs3OFHo6x51TRjdEjANEiOY" label="Twitter Consumer Secret" max_length="120" name="twitter_consumer_secret" type="string"/>
         <element label="Twitter feed required" max_length="40" name="twitter_feed_required" type="boolean"/>
         <element label="Unily Documents" max_length="40" name="unily_documents" type="boolean"/>
-        <element active="false" label="Unily Support Account Credentials added to LastPass" max_length="40" name="unily_support_account_credentials_added_to_lastpass" type="boolean"/>
-        <element active="false" choice="1" label="Unily Support Account privileges" max_length="120" name="unily_support_account_privileges" type="string">
+        <element label="Unily Support Account Credentials added to LastPass" max_length="40" name="unily_support_account_credentials_added_to_lastpass" type="boolean"/>
+        <element choice="1" label="Unily Support Account privileges" max_length="120" name="unily_support_account_privileges" type="string">
             <choice>
                 <element inactive_on_update="false" label="Global Admin" sequence="100" value="Global Admin"/>
                 <element inactive_on_update="false" label="SharePoint Admin" sequence="200" value="SharePoint Admin"/>
                 <element inactive_on_update="false" label="Site Collections only" sequence="300" value="Site Collections only"/>
             </choice>
         </element>
-        <element active="false" label="Unily Support Account Username" max_length="40" name="unily_support_account_username" type="string"/>
+        <element label="Unily Support Account Username" max_length="40" name="unily_support_account_username" type="string"/>
         <element label="Unily Sync/Service Account Credentials added to LastPass" max_length="40" name="unily_sync_service_account_credentials_added_to_lastpass" type="boolean"/>
         <element choice="1" label="Unily Sync/Service Account privileges" max_length="120" name="unily_sync_service_account_privileges" type="string">
             <choice>
@@ -179,16 +179,18 @@
         <element label="User sync configuration requirements" max_length="4000" name="user_sync_configuration_requirements" type="string"/>
         <element label="User sync configured" max_length="40" name="user_sync_configured" type="boolean"/>
         <element label="Created new client wiki" max_length="40" name="u_clientwiki" type="boolean"/>
+        <element label="CMS Certificate Expires" max_length="40" name="u_cms_cert_expire" type="glide_date"/>
         <element label="External User Invites" max_length="40" name="u_external_invites" type="boolean"/>
-        <element active="false" label="Test" max_length="4000" name="u_journal_1" type="journal"/>
+        <element label="Test" max_length="4000" name="u_journal_1" type="journal"/>
         <element label="Kudos" max_length="40" name="u_kudos" type="boolean"/>
         <element label="Modern Social UI" max_length="40" name="u_modern_social_ui" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Octopus Slugname" max_length="40" name="u_octopus_slugname" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Production Sync app Id" max_length="40" name="u_prod_sync_app_id" type="string"/>
         <element active="false" attributes="edge_encryption_enabled=true" label="Production Sync app Secret" max_length="50" name="u_prod_sync_app_secret" type="string"/>
-        <element active="false" attributes="edge_encryption_enabled=true" label="Staging sync App Secret" max_length="50" name="u_staging_sync_app_secret" type="string"/>
-        <element active="false" attributes="edge_encryption_enabled=true" label="Staging Sync App Id" max_length="40" name="u_sync_app_id" type="string"/>
-        <element active="false" label="Has support discussed User Rights Assignment" max_length="40" name="u_user_rights_assignment" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Staging sync App Secret" max_length="50" name="u_staging_sync_app_secret" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Staging Sync App Id" max_length="40" name="u_sync_app_id" type="string"/>
+        <element label="Has support discussed User Rights Assignment" max_length="40" name="u_user_rights_assignment" type="boolean"/>
+        <element label="Front End Certificate Expires" max_length="40" name="u_wfe_cert_expire" type="glide_date"/>
         <element label="Vanity URL required" max_length="40" name="vanity_url_required" type="boolean"/>
         <element label="Verified account has correct level of access" max_length="40" name="verified_account_has_correct_level_of_access" type="boolean"/>
         <element hint="e.g. tBXAOwTEtucEV3neP6yKKw" label="Yammer Client ID CMS" max_length="120" name="yammer_client_id_cms" type="string"/>
