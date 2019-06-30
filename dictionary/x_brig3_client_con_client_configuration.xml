@@ -13,10 +13,10 @@
         <element hint="e.g. dd-mm-yyyy" label="Azure App Client Secret Expiry Production" max_length="40" name="azure_app_client_secret_expiry_production" type="glide_date"/>
         <element hint="e.g. dd-mm-yyyy" label="Azure App Client Secret Expiry Staging" max_length="40" name="azure_app_client_secret_expiry_staging" type="glide_date"/>
         <element hint="e.g. SXy2GknOIkV0ZPV9FTfLLvBh" label="Azure App Client Secret Production" max_length="120" name="azure_app_client_secret_production" type="string"/>
-        <element active="false" hint="e.g. SXy2GknOIkV0ZPV9FTfLLvBh" label="Azure App Client Secret Staging" max_length="120" name="azure_app_client_secret_staging" type="string"/>
+        <element hint="e.g. SXy2GknOIkV0ZPV9FTfLLvBh" label="Azure App Client Secret Staging" max_length="120" name="azure_app_client_secret_staging" type="string"/>
         <element hint="e.g. e6f27451-899d-4d0d-b8fa-88baafa551a7" label="Azure App OAuth 2.0 Endpoint URI CMS" max_length="40" name="azure_app_oauth_2_0_endpoint_uri_cms" type="string"/>
         <element hint="e.g. e6f27451-899d-4d0d-b8fa-88baafa551a7" label="Azure App OAuth 2.0 Endpoint URI Production" max_length="40" name="azure_app_oauth_2_0_endpoint_uri_production" type="string"/>
-        <element active="false" hint="e.g. e6f27451-899d-4d0d-b8fa-88baafa551a7" label="Azure App OAuth 2.0 Endpoint URI Staging" max_length="40" name="azure_app_oauth_2_0_endpoint_uri_staging" type="string"/>
+        <element hint="e.g. e6f27451-899d-4d0d-b8fa-88baafa551a7" label="Azure App OAuth 2.0 Endpoint URI Staging" max_length="40" name="azure_app_oauth_2_0_endpoint_uri_staging" type="string"/>
         <element hint="e.g. my-cms.client.com" label="Azure App Reply URL CMS" max_length="40" name="azure_app_reply_url_cms" type="string"/>
         <element hint="e.g. rockstarrs.unily.com" label="Azure App Reply URL Production" max_length="40" name="azure_app_reply_url_production" type="string"/>
         <element hint="e.g. rockstarrsstaging.unily.com" label="Azure App Reply URL Staging" max_length="40" name="azure_app_reply_url_staging" type="string"/>
@@ -143,6 +143,7 @@
                 <element inactive_on_update="false" label="Complete" sequence="400" value="Complete"/>
             </choice>
         </element>
+        <element label="Success General Submission Complete" max_length="40" name="success_general_submission_complete" type="boolean"/>
         <element label="Target Production Release Date" max_length="40" name="target_production_release_date" type="glide_date_time"/>
         <element label="Target Staging Release Date" max_length="40" name="target_staging_release_date" type="glide_date_time"/>
         <element label="Technical Point of Contact (email address and telephone number)" max_length="4000" name="technical_point_of_contact" type="string"/>
@@ -186,7 +187,7 @@
         <element label="Modern Social UI" max_length="40" name="u_modern_social_ui" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Octopus Slugname" max_length="40" name="u_octopus_slugname" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Production Sync app Id" max_length="40" name="u_prod_sync_app_id" type="string"/>
-        <element active="false" attributes="edge_encryption_enabled=true" label="Production Sync app Secret" max_length="50" name="u_prod_sync_app_secret" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Production Sync app Secret" max_length="50" name="u_prod_sync_app_secret" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Staging sync App Secret" max_length="50" name="u_staging_sync_app_secret" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Staging Sync App Id" max_length="40" name="u_sync_app_id" type="string"/>
         <element label="Has support discussed User Rights Assignment" max_length="40" name="u_user_rights_assignment" type="boolean"/>

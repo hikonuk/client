@@ -5,7 +5,7 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category display_value="Change Task" name="Change Task">b1408844dbc12300342ef3571d9619d1</category>
+        <category display_value="Change Task" name="Change Task">91a67554dbd12300290cf9b41d961927</category>
         <collection>change_task</collection>
         <condition table="change_task">assigned_toVALCHANGES^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>

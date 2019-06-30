@@ -49,7 +49,7 @@
         <sys_created_by>dashboard</sys_created_by>
         <sys_created_on>2019-01-16 14:54:21</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>d812d069db836700c6459635db9619b6</sys_id>
+        <sys_id>0c5250eddb07ab00cbf8f5b31d9619f2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Octopus Slugname</sys_name>
         <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
@@ -57,8 +57,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
         <sys_update_name>sys_dictionary_x_brig3_client_con_client_configuration_u_octopus_slugname</sys_update_name>
-        <sys_updated_by>dashboard</sys_updated_by>
-        <sys_updated_on>2019-01-16 14:54:21</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-05-20 13:51:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

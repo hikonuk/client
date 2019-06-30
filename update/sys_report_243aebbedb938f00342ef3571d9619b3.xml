@@ -24,7 +24,7 @@
         <column>active</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="Shay Faingold">aaec5e86db733200cb5173200f961929</created_by_user>
+        <created_by_user display_value="">aaec5e86db733200cb5173200f961929</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config/>

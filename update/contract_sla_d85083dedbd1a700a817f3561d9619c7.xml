@@ -8,7 +8,7 @@
         <duration_type/>
         <enable_logging>false</enable_logging>
         <name>P4 -Override - 18x5</name>
-        <pause_condition table="incident">stateIN20,4,10,11,12,13,14,15,6^NQpriority!=4^NQcategory=Change Request^NQu_application=Hendrix^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="20,4,10,11,12,13,14,15,6"/>
+        <pause_condition table="incident">stateIN4,10,11,12,13,14,15,6^NQpriority!=4^NQcategory=Change Request^NQu_application=Hendrix^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="4,10,11,12,13,14,15,6"/>
             <item endquery="false" field="priority" goto="false" newquery="true" operator="!=" or="false" value="4"/>
             <item endquery="false" field="category" goto="false" newquery="true" operator="=" or="false" value="Change Request"/>
             <item endquery="false" field="u_application" goto="false" newquery="true" operator="=" or="false" value="Hendrix"/>
@@ -23,7 +23,7 @@
         <resume_condition/>
         <retroactive>true</retroactive>
         <retroactive_pause>false</retroactive_pause>
-        <schedule display_value="">d88a321edbd1a700a817f3561d961909</schedule>
+        <schedule display_value="18 X 5">d88a321edbd1a700a817f3561d961909</schedule>
         <schedule_source>sla_definition</schedule_source>
         <schedule_source_field/>
         <set_start_to>u_last_brightstarr_update</set_start_to>
@@ -42,7 +42,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>d85083dedbd1a700a817f3561d9619c7</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>P4 -Override - 18x5</sys_name>
         <sys_overrides/>
         <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
@@ -50,8 +50,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
         <sys_update_name>contract_sla_d85083dedbd1a700a817f3561d9619c7</sys_update_name>
-        <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
-        <sys_updated_on>2018-12-13 13:28:45</sys_updated_on>
+        <sys_updated_by>Lewis.Murrell@brightstarr.com</sys_updated_by>
+        <sys_updated_on>2018-11-01 13:55:19</sys_updated_on>
         <target/>
         <timezone>Europe/London</timezone>
         <timezone_source>sla.timezone</timezone_source>

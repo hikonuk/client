@@ -5,7 +5,7 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category display_value="Client Configuration" name="Client Configuration">e5408844dbc12300342ef3571d96199b</category>
+        <category display_value="Client Configuration" name="Client Configuration">c5a63554dbd12300290cf9b41d9619f1</category>
         <collection>x_brig3_client_con_client_configuration</collection>
         <condition/>
         <content_type>text/html</content_type>
