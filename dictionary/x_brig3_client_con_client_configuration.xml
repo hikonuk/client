@@ -181,7 +181,11 @@
         <element label="User sync configured" max_length="40" name="user_sync_configured" type="boolean"/>
         <element label="Created new client wiki" max_length="40" name="u_clientwiki" type="boolean"/>
         <element label="CMS Certificate Expires" max_length="40" name="u_cms_cert_expire" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="CMS Cert Name" max_length="40" name="u_cms_cert_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CMS Cert Password" max_length="40" name="u_cms_cert_password" type="string"/>
         <element label="External User Invites" max_length="40" name="u_external_invites" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Front End Cert Name" max_length="40" name="u_front_end_cert_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Front End Cert Password" max_length="40" name="u_front_end_cert_password" type="string"/>
         <element label="Test" max_length="4000" name="u_journal_1" type="journal"/>
         <element label="Kudos" max_length="40" name="u_kudos" type="boolean"/>
         <element label="Modern Social UI" max_length="40" name="u_modern_social_ui" type="boolean"/>
