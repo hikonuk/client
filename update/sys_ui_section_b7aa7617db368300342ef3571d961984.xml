@@ -4,13 +4,13 @@
             <element>show_production</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>ffcf0236db92b7406370fc7c0c961900</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>9780de36db92b7406370fc7c0c961981</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>azure_app_reply_url_production</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>73cf0236db92b7406370fc7c0c961901</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>1b80de36db92b7406370fc7c0c961981</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>azure_app_reply_url_cms</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>f3cf0236db92b7406370fc7c0c961901</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>9b80de36db92b7406370fc7c0c961981</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>azure_app_client_id_production</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>77cf0236db92b7406370fc7c0c961901</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>1f80de36db92b7406370fc7c0c961981</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>azure_app_client_secret_expiry_production</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>f7cf0236db92b7406370fc7c0c961901</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>9f80de36db92b7406370fc7c0c961981</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>azure_app_client_secret_production</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>7bcf0236db92b7406370fc7c0c961901</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>1380de36db92b7406370fc7c0c961982</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>azure_app_oauth_2_0_endpoint_uri_production</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>fbcf0236db92b7406370fc7c0c961901</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>9380de36db92b7406370fc7c0c961982</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>azure_app_client_id_cms</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>7fcf0236db92b7406370fc7c0c961901</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>1780de36db92b7406370fc7c0c961982</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>azure_app_client_secret_cms</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>ffcf0236db92b7406370fc7c0c961901</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>9780de36db92b7406370fc7c0c961982</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>azure_app_client_secret_expiry_cms</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>73cf0236db92b7406370fc7c0c961902</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>1b80de36db92b7406370fc7c0c961982</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>azure_app_oauth_2_0_endpoint_uri_cms</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>f3cf0236db92b7406370fc7c0c961902</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>9b80de36db92b7406370fc7c0c961982</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>vanity_url_required</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>77cf0236db92b7406370fc7c0c961902</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>1f80de36db92b7406370fc7c0c961982</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -172,13 +172,13 @@
             <element>certificate_password_added_to_last_pass</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>f7cf0236db92b7406370fc7c0c961902</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>9f80de36db92b7406370fc7c0c961982</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -186,279 +186,293 @@
             <element>cname_dns_resolution_verified</element>
             <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>7bcf0236db92b7406370fc7c0c961902</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>1380de36db92b7406370fc7c0c961983</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_san_cert</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>9380de36db92b7406370fc7c0c961983</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_front_end_cert_name</element>
-            <position>14</position>
+            <position>15</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>fbcf0236db92b7406370fc7c0c961902</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>1780de36db92b7406370fc7c0c961983</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_front_end_cert_password</element>
-            <position>15</position>
+            <position>16</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>7fcf0236db92b7406370fc7c0c961902</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>9780de36db92b7406370fc7c0c961983</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_wfe_cert_expire</element>
-            <position>16</position>
+            <position>17</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>ffcf0236db92b7406370fc7c0c961902</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>1b80de36db92b7406370fc7c0c961983</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_cms_cert_name</element>
-            <position>17</position>
+            <position>18</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>73cf0236db92b7406370fc7c0c961903</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>9b80de36db92b7406370fc7c0c961983</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_cms_cert_password</element>
-            <position>18</position>
+            <position>19</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>f3cf0236db92b7406370fc7c0c961903</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>1f80de36db92b7406370fc7c0c961983</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_cms_cert_expire</element>
-            <position>19</position>
+            <position>20</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>77cf0236db92b7406370fc7c0c961903</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>9f80de36db92b7406370fc7c0c961983</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>portal_url_required_for_production</element>
-            <position>20</position>
+            <position>21</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>f7cf0236db92b7406370fc7c0c961903</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>1380de36db92b7406370fc7c0c961984</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>cms_url_required_for_production</element>
-            <position>21</position>
+            <position>22</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>7bcf0236db92b7406370fc7c0c961903</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>9380de36db92b7406370fc7c0c961984</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sharepoint_site_collection_url_production</element>
-            <position>22</position>
+            <position>23</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>fbcf0236db92b7406370fc7c0c961903</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>1780de36db92b7406370fc7c0c961984</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sharepoint_search_site_collection_url_production</element>
-            <position>23</position>
+            <position>24</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>7fcf0236db92b7406370fc7c0c961903</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>9780de36db92b7406370fc7c0c961984</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sharepoint_people_search_results_source_id_production</element>
-            <position>24</position>
+            <position>25</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>ffcf0236db92b7406370fc7c0c961903</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>1b80de36db92b7406370fc7c0c961984</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sharepoint_document_search_results_source_id_production</element>
-            <position>25</position>
+            <position>26</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>73cf0236db92b7406370fc7c0c961904</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>9b80de36db92b7406370fc7c0c961984</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sharepoint_sites_search_results_source_id_production</element>
-            <position>26</position>
+            <position>27</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>f3cf0236db92b7406370fc7c0c961904</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>1f80de36db92b7406370fc7c0c961984</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_prod_sync_app_id</element>
-            <position>27</position>
+            <position>28</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>77cf0236db92b7406370fc7c0c961904</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>9f80de36db92b7406370fc7c0c961984</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_prod_sync_app_secret</element>
-            <position>28</position>
+            <position>29</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>f7cf0236db92b7406370fc7c0c961904</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>1380de36db92b7406370fc7c0c961985</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>yammer_client_id_production</element>
-            <position>29</position>
+            <position>30</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>7bcf0236db92b7406370fc7c0c961904</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>9380de36db92b7406370fc7c0c961985</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>yammer_client_secret_production</element>
-            <position>30</position>
+            <position>31</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>fbcf0236db92b7406370fc7c0c961904</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>1780de36db92b7406370fc7c0c961985</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>yammer_client_id_cms</element>
-            <position>31</position>
+            <position>32</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>7fcf0236db92b7406370fc7c0c961904</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>9780de36db92b7406370fc7c0c961985</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>yammer_client_secret_cms</element>
-            <position>32</position>
+            <position>33</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-01 10:40:11</sys_created_on>
-            <sys_id>ffcf0236db92b7406370fc7c0c961904</sys_id>
+            <sys_created_on>2019-07-01 10:43:26</sys_created_on>
+            <sys_id>1b80de36db92b7406370fc7c0c961985</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Production pre-requisites" display_value="Production pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">b7aa7617db368300342ef3571d961984</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-01 10:40:11</sys_updated_on>
+            <sys_updated_on>2019-07-01 10:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

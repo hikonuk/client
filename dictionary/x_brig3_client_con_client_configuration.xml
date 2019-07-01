@@ -192,6 +192,7 @@
         <element attributes="edge_encryption_enabled=true" label="Octopus Slugname" max_length="40" name="u_octopus_slugname" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Production Sync app Id" max_length="40" name="u_prod_sync_app_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Production Sync app Secret" max_length="50" name="u_prod_sync_app_secret" type="string"/>
+        <element label="SAN Certificate" max_length="40" name="u_san_cert" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Staging sync App Secret" max_length="50" name="u_staging_sync_app_secret" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Staging Sync App Id" max_length="40" name="u_sync_app_id" type="string"/>
         <element label="Has support discussed User Rights Assignment" max_length="40" name="u_user_rights_assignment" type="boolean"/>
