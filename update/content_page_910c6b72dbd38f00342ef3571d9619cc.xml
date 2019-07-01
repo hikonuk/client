@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update node_type="content_page" unload_date="2019-06-30 09:33:55">
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="content_page" unload_date="2019-07-01 09:36:31">
     <sys_portal action="delete_multiple" query="page=910c6b72dbd38f00342ef3571d9619cc">
         <related_items_node>
             <sys_portal action="INSERT_OR_UPDATE">
