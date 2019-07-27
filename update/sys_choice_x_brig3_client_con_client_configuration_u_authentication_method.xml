@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="social" table="x_brig3_client_con_client_configuration" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="u_authentication_method" table="x_brig3_client_con_client_configuration" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>social</element>
+            <element>u_authentication_method</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Unily Social</label>
+            <label>Azure AD</label>
             <language>en</language>
             <name>x_brig3_client_con_client_configuration</name>
             <sequence>0</sequence>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2017-12-20 09:03:47</sys_created_on>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-27 16:22:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>cf929cdbdbc3cf00a817f3561d961962</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>24879953db7ef3406370fc7c0c961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-07-27 16:22:33</sys_updated_on>
-            <value>Unily Social</value>
+            <value>azure ad</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>social</element>
+            <element>u_authentication_method</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Yammer</label>
+            <label>ADFS</label>
             <language>en</language>
             <name>x_brig3_client_con_client_configuration</name>
             <sequence>1</sequence>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2017-12-20 09:03:47</sys_created_on>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-27 16:22:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>03929cdbdbc3cf00a817f3561d961963</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>a4879953db7ef3406370fc7c0c961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-07-27 16:22:33</sys_updated_on>
-            <value>Yammer</value>
+            <value>adfs</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>social</element>
+            <element>u_authentication_method</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Both</label>
+            <label>OAuth</label>
             <language>en</language>
             <name>x_brig3_client_con_client_configuration</name>
             <sequence>2</sequence>
@@ -51,29 +51,29 @@
             <sys_created_on>2019-07-27 16:22:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>3c879953db7ef3406370fc7c0c961918</sys_id>
+            <sys_id>24879953db7ef3406370fc7c0c961909</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-07-27 16:22:33</sys_updated_on>
-            <value>both</value>
+            <value>oauth</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>social</element>
+            <element>u_authentication_method</element>
             <name>x_brig3_client_con_client_configuration</name>
             <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2017-12-20 09:03:47</sys_created_on>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-27 16:22:33</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>07929cdbdbc3cf00a817f3561d961963</sys_id>
+            <sys_id>ac879953db7ef3406370fc7c0c961907</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>social</sys_name>
+            <sys_name>u_authentication_method</sys_name>
             <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
-            <sys_update_name>sys_choice_x_brig3_client_con_client_configuration_social</sys_update_name>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2017-12-20 09:03:47</sys_updated_on>
+            <sys_update_name>sys_choice_x_brig3_client_con_client_configuration_u_authentication_method</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-27 16:22:33</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

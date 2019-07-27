@@ -110,10 +110,11 @@
         <element label="Show General pre-requisites fields" max_length="40" name="show_general" type="boolean"/>
         <element label="Show Production fields" max_length="40" name="show_production" type="boolean"/>
         <element label="Show Staging fields" max_length="40" name="show_staging" type="boolean"/>
-        <element choice="1" label="Social" max_length="40" name="social" type="choice">
+        <element choice="3" default="Unily Social" label="Social" max_length="40" name="social" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Unily Social" sequence="100" value="Unily Social"/>
-                <element inactive_on_update="false" label="Yammer" sequence="200" value="Yammer"/>
+                <element inactive_on_update="false" label="Unily Social" sequence="0" value="Unily Social"/>
+                <element inactive_on_update="false" label="Yammer" sequence="1" value="Yammer"/>
+                <element inactive_on_update="false" label="Both" sequence="2" value="both"/>
             </choice>
         </element>
         <element choice="1" default="Client Configuration Overview" label="Stage" max_length="40" name="stage" type="choice">
@@ -179,6 +180,13 @@
         <element label="Updated by (ref)" max_length="32" name="updated_by_ref" reference="sys_user" type="reference"/>
         <element label="User sync configuration requirements" max_length="4000" name="user_sync_configuration_requirements" type="string"/>
         <element label="User sync configured" max_length="40" name="user_sync_configured" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Authentication Method" max_length="40" name="u_authentication_method" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Azure AD" sequence="0" value="azure ad"/>
+                <element inactive_on_update="false" label="ADFS" sequence="1" value="adfs"/>
+                <element inactive_on_update="false" label="OAuth" sequence="2" value="oauth"/>
+            </choice>
+        </element>
         <element label="Created new client wiki" max_length="40" name="u_clientwiki" type="boolean"/>
         <element label="CMS Certificate Expires" max_length="40" name="u_cms_cert_expire" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="CMS Cert Name" max_length="40" name="u_cms_cert_name" type="string"/>
@@ -186,14 +194,25 @@
         <element label="External User Invites" max_length="40" name="u_external_invites" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Front End Cert Name" max_length="40" name="u_front_end_cert_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Front End Cert Password" max_length="40" name="u_front_end_cert_password" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="General Submitted By" max_length="40" name="u_general_submitted_by" type="string"/>
         <element label="Test" max_length="4000" name="u_journal_1" type="journal"/>
         <element label="Kudos" max_length="40" name="u_kudos" type="boolean"/>
+        <element label="Android" max_length="40" name="u_ma_android" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Apple Developer Account" max_length="40" name="u_ma_apple_developer_account" type="string"/>
+        <element label="Client Call" max_length="40" name="u_ma_client_call" type="boolean"/>
+        <element label="In-Tune SDK Integration" max_length="40" name="u_ma_intune_sdk_integration" type="boolean"/>
+        <element label="IOS" max_length="40" name="u_ma_ios" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="MDM Solution" max_length="40" name="u_ma_mdm_solution" type="string"/>
         <element label="Modern Social UI" max_length="40" name="u_modern_social_ui" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Octopus Slugname" max_length="40" name="u_octopus_slugname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Production Submitted By" max_length="40" name="u_production_submitted_by" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Production Sync app Id" max_length="40" name="u_prod_sync_app_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Production Sync app Secret" max_length="50" name="u_prod_sync_app_secret" type="string"/>
         <element label="SAN Certificate" max_length="40" name="u_san_cert" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Staging Submitted By" max_length="40" name="u_staging_submitted_by" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Staging sync App Secret" max_length="50" name="u_staging_sync_app_secret" type="string"/>
+        <element label="Success Production Submission Complete" max_length="40" name="u_success_production_submission_complete" type="boolean"/>
+        <element label="Success Staging Submission Complete" max_length="40" name="u_success_staging_submission_complete" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Staging Sync App Id" max_length="40" name="u_sync_app_id" type="string"/>
         <element label="Has support discussed User Rights Assignment" max_length="40" name="u_user_rights_assignment" type="boolean"/>
         <element label="Front End Certificate Expires" max_length="40" name="u_wfe_cert_expire" type="glide_date"/>
