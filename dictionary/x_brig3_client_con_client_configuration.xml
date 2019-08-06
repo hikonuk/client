@@ -49,6 +49,7 @@
                 <element inactive_on_update="false" label="Ready for engineer review" sequence="0" value="Ready for engineer review"/>
                 <element inactive_on_update="false" label="New" sequence="1" value="New"/>
                 <element inactive_on_update="false" label="In progress with client" sequence="2" value="In progress with client"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
             </choice>
         </element>
         <element label="Go-live date" max_length="40" name="go_live_date" type="glide_date_time"/>
@@ -91,6 +92,7 @@
             <choice>
                 <element inactive_on_update="false" label="New" sequence="1" value="New"/>
                 <element inactive_on_update="false" label="In progress with client" sequence="2" value="In progress with client"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
                 <element inactive_on_update="false" label="Ready for engineer review" sequence="3" value="Ready for engineer review"/>
             </choice>
         </element>
@@ -131,7 +133,8 @@
         <element choice="1" default="New" label="Staging pre-req status - set to 'ready for engineer review' when complete" max_length="40" name="staging_pre_requisites_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="New" sequence="1" value="New"/>
-                <element inactive_on_update="false" label="In progess with client" sequence="2" value="In progess with client"/>
+                <element inactive_on_update="false" label="In progress with client" sequence="2" value="In progress with client"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
                 <element inactive_on_update="false" label="Ready for engineer review" sequence="3" value="Ready for engineer review"/>
             </choice>
         </element>
@@ -180,6 +183,7 @@
         <element label="Updated by (ref)" max_length="32" name="updated_by_ref" reference="sys_user" type="reference"/>
         <element label="User sync configuration requirements" max_length="4000" name="user_sync_configuration_requirements" type="string"/>
         <element label="User sync configured" max_length="40" name="user_sync_configured" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="ADFS Proxy" max_length="250" name="u_adfs_proxy" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Authentication Method" max_length="40" name="u_authentication_method" type="string">
             <choice>
                 <element inactive_on_update="false" label="Azure AD" sequence="0" value="azure ad"/>
@@ -194,6 +198,7 @@
         <element label="External User Invites" max_length="40" name="u_external_invites" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Front End Cert Name" max_length="40" name="u_front_end_cert_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Front End Cert Password" max_length="40" name="u_front_end_cert_password" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="General Rejection Message" max_length="1000" name="u_general_rejection_message" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="General Submitted By" max_length="40" name="u_general_submitted_by" type="string"/>
         <element label="Test" max_length="4000" name="u_journal_1" type="journal"/>
         <element label="Kudos" max_length="40" name="u_kudos" type="boolean"/>
@@ -204,11 +209,30 @@
         <element label="IOS" max_length="40" name="u_ma_ios" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="MDM Solution" max_length="40" name="u_ma_mdm_solution" type="string"/>
         <element label="Modern Social UI" max_length="40" name="u_modern_social_ui" type="boolean"/>
+        <element label="Office365 Integration" max_length="40" name="u_o365_integration" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Octopus Slugname" max_length="40" name="u_octopus_slugname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OpenId Authority" max_length="40" name="u_openid_authority" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OpenId Auth Endpoint" max_length="40" name="u_openid_auth_endpoint" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OpenId Callback Path" max_length="40" name="u_openid_callback_path" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OpenId Claim Map" max_length="40" name="u_openid_claim_map" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OpenId ID" max_length="40" name="u_openid_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="OpenId Method" max_length="40" name="u_openid_mehtod" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Oauth2" sequence="0" value="oauth2"/>
+                <element inactive_on_update="false" label="OIDC" sequence="1" value="oidc"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="OpenId Metadata Address" max_length="40" name="u_openid_metadata_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OpenId Scope" max_length="40" name="u_openid_scope" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OpenId Secret" max_length="40" name="u_openid_secret" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OpenId Token Endpoint" max_length="40" name="u_openid_token_endpoint" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OpenId User Information Endpoint" max_length="40" name="u_openid_user_info_endpoint" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Production Rejection Message" max_length="1000" name="u_production_rejection_message" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Production Submitted By" max_length="40" name="u_production_submitted_by" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Production Sync app Id" max_length="40" name="u_prod_sync_app_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Production Sync app Secret" max_length="50" name="u_prod_sync_app_secret" type="string"/>
         <element label="SAN Certificate" max_length="40" name="u_san_cert" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Staging Rejection Messgae" max_length="1000" name="u_staging_rejection_message" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Staging Submitted By" max_length="40" name="u_staging_submitted_by" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Staging sync App Secret" max_length="50" name="u_staging_sync_app_secret" type="string"/>
         <element label="Success Production Submission Complete" max_length="40" name="u_success_production_submission_complete" type="boolean"/>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user>shay_temp</basic_auth_user>
+        <content>grant_type=${grant_type}&amp;client_id=${client_id}&amp;client_secret=${client_secret}</content>
+        <function_name>Post Token</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Unily - Get Token [ Post Token ]</qualified_name>
+        <rest_endpoint>https://unilysuccess-idsrv-stg.unily.com/connect/token</rest_endpoint>
+        <rest_message display_value="Unily - Get Token">c9bc7dd4db4b7300c6459635db961960</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>shay_temp</sys_created_by>
+        <sys_created_on>2019-07-30 21:46:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6c8eb158db4b7300c6459635db961910</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Post Token</sys_name>
+        <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
+        <sys_update_name>sys_rest_message_fn_6c8eb158db4b7300c6459635db961910</sys_update_name>
+        <sys_updated_by>shay_temp</sys_updated_by>
+        <sys_updated_on>2019-08-04 14:10:00</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

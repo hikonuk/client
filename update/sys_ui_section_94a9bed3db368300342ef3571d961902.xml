@@ -3,25 +3,25 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-27 16:27:20</sys_created_on>
-            <sys_id>62989993db7ef3406370fc7c0c961921</sys_id>
+            <sys_created_on>2019-08-06 09:16:44</sys_created_on>
+            <sys_id>94f55fd2db83f300c6459635db9619cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-27 16:27:20</sys_updated_on>
+            <sys_updated_on>2019-08-06 09:16:44</sys_updated_on>
             <text/>
             <type/>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>62989993db7ef3406370fc7c0c961921</element>
+            <element>94f55fd2db83f300c6459635db9619cb</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-27 16:27:20</sys_created_on>
-            <sys_id>26989993db7ef3406370fc7c0c961921</sys_id>
+            <sys_created_on>2019-08-06 09:16:44</sys_created_on>
+            <sys_id>58f55fd2db83f300c6459635db9619cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Staging pre-requisites" display_value="Staging pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">94a9bed3db368300342ef3571d961902</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-27 16:27:20</sys_updated_on>
+            <sys_updated_on>2019-08-06 09:16:44</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -29,13 +29,13 @@
             <element>show_staging</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-27 16:27:20</sys_created_on>
-            <sys_id>a6989993db7ef3406370fc7c0c961921</sys_id>
+            <sys_created_on>2019-08-06 09:16:44</sys_created_on>
+            <sys_id>d8f55fd2db83f300c6459635db9619cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Staging pre-requisites" display_value="Staging pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">94a9bed3db368300342ef3571d961902</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-27 16:27:20</sys_updated_on>
+            <sys_updated_on>2019-08-06 09:16:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -43,13 +43,13 @@
             <element>azure_app_client_id_staging</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-27 16:27:20</sys_created_on>
-            <sys_id>2a989993db7ef3406370fc7c0c961921</sys_id>
+            <sys_created_on>2019-08-06 09:16:44</sys_created_on>
+            <sys_id>5cf55fd2db83f300c6459635db9619cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Staging pre-requisites" display_value="Staging pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">94a9bed3db368300342ef3571d961902</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-27 16:27:20</sys_updated_on>
+            <sys_updated_on>2019-08-06 09:16:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -57,13 +57,13 @@
             <element>azure_app_client_secret_staging</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-27 16:27:20</sys_created_on>
-            <sys_id>aa989993db7ef3406370fc7c0c961921</sys_id>
+            <sys_created_on>2019-08-06 09:16:44</sys_created_on>
+            <sys_id>dcf55fd2db83f300c6459635db9619cb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Staging pre-requisites" display_value="Staging pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">94a9bed3db368300342ef3571d961902</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-27 16:27:20</sys_updated_on>
+            <sys_updated_on>2019-08-06 09:16:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -71,13 +71,13 @@
             <element>azure_app_oauth_2_0_endpoint_uri_staging</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-27 16:27:20</sys_created_on>
-            <sys_id>2e989993db7ef3406370fc7c0c961921</sys_id>
+            <sys_created_on>2019-08-06 09:16:44</sys_created_on>
+            <sys_id>50f55fd2db83f300c6459635db9619cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Staging pre-requisites" display_value="Staging pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">94a9bed3db368300342ef3571d961902</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-27 16:27:20</sys_updated_on>
+            <sys_updated_on>2019-08-06 09:16:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -85,13 +85,13 @@
             <element>azure_app_client_secret_expiry_staging</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-27 16:27:20</sys_created_on>
-            <sys_id>ae989993db7ef3406370fc7c0c961921</sys_id>
+            <sys_created_on>2019-08-06 09:16:44</sys_created_on>
+            <sys_id>d0f55fd2db83f300c6459635db9619cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Staging pre-requisites" display_value="Staging pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">94a9bed3db368300342ef3571d961902</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-27 16:27:20</sys_updated_on>
+            <sys_updated_on>2019-08-06 09:16:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -99,13 +99,13 @@
             <element>portal_url_required_for_staging</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-27 16:27:20</sys_created_on>
-            <sys_id>22989993db7ef3406370fc7c0c961922</sys_id>
+            <sys_created_on>2019-08-06 09:16:44</sys_created_on>
+            <sys_id>54f55fd2db83f300c6459635db9619cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Staging pre-requisites" display_value="Staging pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">94a9bed3db368300342ef3571d961902</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-27 16:27:20</sys_updated_on>
+            <sys_updated_on>2019-08-06 09:16:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -113,13 +113,13 @@
             <element>sharepoint_site_collection_url_staging</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-27 16:27:20</sys_created_on>
-            <sys_id>a2989993db7ef3406370fc7c0c961922</sys_id>
+            <sys_created_on>2019-08-06 09:16:44</sys_created_on>
+            <sys_id>d4f55fd2db83f300c6459635db9619cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Staging pre-requisites" display_value="Staging pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">94a9bed3db368300342ef3571d961902</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-27 16:27:20</sys_updated_on>
+            <sys_updated_on>2019-08-06 09:16:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -127,13 +127,13 @@
             <element>sharepoint_search_site_collection_url_staging</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-27 16:27:20</sys_created_on>
-            <sys_id>26989993db7ef3406370fc7c0c961922</sys_id>
+            <sys_created_on>2019-08-06 09:16:44</sys_created_on>
+            <sys_id>58f55fd2db83f300c6459635db9619cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Staging pre-requisites" display_value="Staging pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">94a9bed3db368300342ef3571d961902</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-27 16:27:20</sys_updated_on>
+            <sys_updated_on>2019-08-06 09:16:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -141,13 +141,13 @@
             <element>sharepoint_people_search_results_source_id_staging</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-27 16:27:20</sys_created_on>
-            <sys_id>a6989993db7ef3406370fc7c0c961922</sys_id>
+            <sys_created_on>2019-08-06 09:16:44</sys_created_on>
+            <sys_id>d8f55fd2db83f300c6459635db9619cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Staging pre-requisites" display_value="Staging pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">94a9bed3db368300342ef3571d961902</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-27 16:27:20</sys_updated_on>
+            <sys_updated_on>2019-08-06 09:16:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -155,13 +155,13 @@
             <element>sharepoint_document_search_results_source_id_staging</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-27 16:27:20</sys_created_on>
-            <sys_id>2a989993db7ef3406370fc7c0c961922</sys_id>
+            <sys_created_on>2019-08-06 09:16:44</sys_created_on>
+            <sys_id>5cf55fd2db83f300c6459635db9619cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Staging pre-requisites" display_value="Staging pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">94a9bed3db368300342ef3571d961902</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-27 16:27:20</sys_updated_on>
+            <sys_updated_on>2019-08-06 09:16:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -169,13 +169,13 @@
             <element>sharepoint_sites_search_results_source_id_staging</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-27 16:27:20</sys_created_on>
-            <sys_id>aa989993db7ef3406370fc7c0c961922</sys_id>
+            <sys_created_on>2019-08-06 09:16:44</sys_created_on>
+            <sys_id>dcf55fd2db83f300c6459635db9619cc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Staging pre-requisites" display_value="Staging pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">94a9bed3db368300342ef3571d961902</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-27 16:27:20</sys_updated_on>
+            <sys_updated_on>2019-08-06 09:16:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -183,13 +183,13 @@
             <element>u_sync_app_id</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-27 16:27:20</sys_created_on>
-            <sys_id>2e989993db7ef3406370fc7c0c961922</sys_id>
+            <sys_created_on>2019-08-06 09:16:44</sys_created_on>
+            <sys_id>50f55fd2db83f300c6459635db9619cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Staging pre-requisites" display_value="Staging pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">94a9bed3db368300342ef3571d961902</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-27 16:27:20</sys_updated_on>
+            <sys_updated_on>2019-08-06 09:16:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -197,13 +197,13 @@
             <element>u_staging_sync_app_secret</element>
             <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-27 16:27:20</sys_created_on>
-            <sys_id>ae989993db7ef3406370fc7c0c961922</sys_id>
+            <sys_created_on>2019-08-06 09:16:44</sys_created_on>
+            <sys_id>d0f55fd2db83f300c6459635db9619cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Staging pre-requisites" display_value="Staging pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">94a9bed3db368300342ef3571d961902</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-27 16:27:20</sys_updated_on>
+            <sys_updated_on>2019-08-06 09:16:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -211,13 +211,13 @@
             <element>yammer_client_id_staging</element>
             <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-27 16:27:20</sys_created_on>
-            <sys_id>22989993db7ef3406370fc7c0c961923</sys_id>
+            <sys_created_on>2019-08-06 09:16:44</sys_created_on>
+            <sys_id>54f55fd2db83f300c6459635db9619cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Staging pre-requisites" display_value="Staging pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">94a9bed3db368300342ef3571d961902</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-27 16:27:20</sys_updated_on>
+            <sys_updated_on>2019-08-06 09:16:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -225,13 +225,13 @@
             <element>yammer_client_secret_staging</element>
             <position>15</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-27 16:27:20</sys_created_on>
-            <sys_id>a2989993db7ef3406370fc7c0c961923</sys_id>
+            <sys_created_on>2019-08-06 09:16:44</sys_created_on>
+            <sys_id>d4f55fd2db83f300c6459635db9619cd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Staging pre-requisites" display_value="Staging pre-requisites" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">94a9bed3db368300342ef3571d961902</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-27 16:27:20</sys_updated_on>
+            <sys_updated_on>2019-08-06 09:16:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
