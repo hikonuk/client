@@ -17,7 +17,7 @@
         <relative_duration_works_on>Task record</relative_duration_works_on>
         <reset_action>complete</reset_action>
         <reset_condition table="incident">u_last_brightstarr_updateONCurrent minute@javascript:gs.beginningOfCurrentMinute()@javascript:gs.endOfCurrentMinute()^u_updated_by_reference.company=aca27872db9b62008085f9d10f961900^EQ<item endquery="false" field="u_last_brightstarr_update" goto="false" newquery="false" operator="ON" or="false" value="Current minute@javascript:gs.beginningOfCurrentMinute()@javascript:gs.endOfCurrentMinute()"/>
-            <item display_table="core_company" display_value="Brightstarr Ltd" endquery="false" field="u_updated_by_reference.company" goto="false" newquery="false" operator="=" or="false" value="aca27872db9b62008085f9d10f961900"/>
+            <item endquery="false" field="u_updated_by_reference.company" goto="false" newquery="false" operator="=" or="false" value="aca27872db9b62008085f9d10f961900"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reset_condition>
         <resume_condition/>

@@ -2,6 +2,7 @@
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
         <application display_value="Client Configuration">274fba03dbbe4300342ef3571d961945</application>
+        <assessment/>
         <content_page/>
         <device_type/>
         <filter table="x_brig3_client_con_client_configuration">stage=Completed^active=true^EQ<item endquery="false" field="stage" goto="false" newquery="false" operator="=" or="false" value="Completed"/>

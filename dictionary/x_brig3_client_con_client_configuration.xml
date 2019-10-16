@@ -231,10 +231,12 @@
         <element attributes="edge_encryption_enabled=true" label="Production Submitted By" max_length="40" name="u_production_submitted_by" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Production Sync app Id" max_length="40" name="u_prod_sync_app_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Production Sync app Secret" max_length="50" name="u_prod_sync_app_secret" type="string"/>
+        <element label="New Reference" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
         <element label="SAN Certificate" max_length="40" name="u_san_cert" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Staging Rejection Messgae" max_length="1000" name="u_staging_rejection_message" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Staging Submitted By" max_length="40" name="u_staging_submitted_by" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Staging sync App Secret" max_length="50" name="u_staging_sync_app_secret" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Deployment Points of Contact" max_length="4000" name="u_string_1" type="string"/>
         <element label="Success Production Submission Complete" max_length="40" name="u_success_production_submission_complete" type="boolean"/>
         <element label="Success Staging Submission Complete" max_length="40" name="u_success_staging_submission_complete" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Staging Sync App Id" max_length="40" name="u_sync_app_id" type="string"/>
@@ -256,12 +258,15 @@
             <element name="csm_owner"/>
         </index>
         <index name="index3">
-            <element name="updated_by_ref"/>
+            <element name="u_reference_1"/>
         </index>
         <index name="index4">
-            <element name="company"/>
+            <element name="updated_by_ref"/>
         </index>
         <index name="index5">
+            <element name="company"/>
+        </index>
+        <index name="index6">
             <element name="assigned_to"/>
         </index>
     </element>
