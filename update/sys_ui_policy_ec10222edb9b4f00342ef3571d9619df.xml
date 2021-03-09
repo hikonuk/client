@@ -2,7 +2,7 @@
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
         <conditions table="x_brig3_client_con_client_configuration">powerbi_analytics=true^stageINGeneral pre-requisites,Staging pre-requisites,Production pre-requisites,Post-deployment steps,Completed^EQ<item endquery="false" field="powerbi_analytics" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="false" field="stage" goto="false" newquery="false" operator="IN" or="false" value="General pre-requisites,Staging pre-requisites,Production pre-requisites,Post-deployment steps,Completed"/>
+            <item display_value="General pre-requisites,Staging pre-requisites,Production pre-requisites,Post-deployment steps,Completed" endquery="false" field="stage" goto="false" newquery="false" operator="IN" or="false" value="General pre-requisites,Staging pre-requisites,Production pre-requisites,Post-deployment steps,Completed"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>

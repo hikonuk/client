@@ -2,45 +2,31 @@
     <sys_ui_related sys_domain="global" table="x_brig3_client_con_client_configuration" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Client Configuration - Default view" name="x_brig3_client_con_client_configuration" related_list="NULL" sys_domain="global" view="Default view">d426706edb9eb340c6459635db96194c</list_id>
+            <list_id display_value="Client Configuration - Default view" name="x_brig3_client_con_client_configuration" related_list="NULL" sys_domain="global" view="Default view">1c581e3cdbeb2740c6459635db96199e</list_id>
             <order_by/>
             <position>0</position>
             <related_list>REL:d0e4b820db430700342ef3571d961997</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>shay_temp</sys_created_by>
-            <sys_created_on>2019-06-30 09:29:54</sys_created_on>
-            <sys_id>1826706edb9eb340c6459635db96194d</sys_id>
+            <sys_created_by>shay.faingold@hikon.co.uk</sys_created_by>
+            <sys_created_on>2019-02-08 13:16:50</sys_created_on>
+            <sys_id>5c581e3cdbeb2740c6459635db96199f</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>shay_temp</sys_updated_by>
-            <sys_updated_on>2019-06-30 09:29:54</sys_updated_on>
+            <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
+            <sys_updated_on>2019-02-08 13:16:50</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Client Configuration - Default view" name="x_brig3_client_con_client_configuration" related_list="NULL" sys_domain="global" view="Default view">d426706edb9eb340c6459635db96194c</list_id>
+            <list_id display_value="Client Configuration - Default view" name="x_brig3_client_con_client_configuration" related_list="NULL" sys_domain="global" view="Default view">1c581e3cdbeb2740c6459635db96199e</list_id>
             <order_by/>
             <position>1</position>
             <related_list>x_brig3_client_con_application_items.client_configuration</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>shay_temp</sys_created_by>
-            <sys_created_on>2019-06-30 09:29:54</sys_created_on>
-            <sys_id>d026706edb9eb340c6459635db96194e</sys_id>
+            <sys_created_by>shay.faingold@hikon.co.uk</sys_created_by>
+            <sys_created_on>2019-02-08 13:16:50</sys_created_on>
+            <sys_id>18581e3cdbeb2740c6459635db9619a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>shay_temp</sys_updated_by>
-            <sys_updated_on>2019-06-30 09:29:54</sys_updated_on>
-        </sys_ui_related_list_entry>
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="Client Configuration - Default view" name="x_brig3_client_con_client_configuration" related_list="NULL" sys_domain="global" view="Default view">d426706edb9eb340c6459635db96194c</list_id>
-            <order_by/>
-            <position>2</position>
-            <related_list>REL:4b05b02edb9eb340c6459635db9619c5</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>shay_temp</sys_created_by>
-            <sys_created_on>2019-06-30 09:29:54</sys_created_on>
-            <sys_id>5826706edb9eb340c6459635db96194e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>shay_temp</sys_updated_by>
-            <sys_updated_on>2019-06-30 09:29:54</sys_updated_on>
+            <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
+            <sys_updated_on>2019-02-08 13:16:50</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Client Configuration - Default view</calculated_name>
@@ -50,12 +36,12 @@
             <position/>
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
-            <sys_created_by>shay_temp</sys_created_by>
-            <sys_created_on>2019-06-30 09:29:54</sys_created_on>
+            <sys_created_by>shay.faingold@hikon.co.uk</sys_created_by>
+            <sys_created_on>2019-02-08 13:16:50</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d426706edb9eb340c6459635db96194c</sys_id>
+            <sys_id>1c581e3cdbeb2740c6459635db96199e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Client Configuration - Default view</sys_name>
             <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
@@ -63,8 +49,8 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
             <sys_update_name>sys_ui_related_x_brig3_client_con_client_configuration_null</sys_update_name>
-            <sys_updated_by>shay_temp</sys_updated_by>
-            <sys_updated_on>2019-06-30 09:29:54</sys_updated_on>
+            <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
+            <sys_updated_on>2019-02-08 13:16:50</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

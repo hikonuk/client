@@ -7,17 +7,18 @@
         <duration>1970-01-01 20:00:00</duration>
         <duration_type/>
         <enable_logging>false</enable_logging>
+        <flow/>
         <name>P4 -Override - 18x5</name>
-        <pause_condition table="incident">stateIN4,10,11,12,13,14,15,6^NQpriority!=4^NQcategory=Change Request^NQu_application=Hendrix^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="4,10,11,12,13,14,15,6"/>
-            <item endquery="false" field="priority" goto="false" newquery="true" operator="!=" or="false" value="4"/>
-            <item endquery="false" field="category" goto="false" newquery="true" operator="=" or="false" value="Change Request"/>
-            <item endquery="false" field="u_application" goto="false" newquery="true" operator="=" or="false" value="Hendrix"/>
+        <pause_condition table="incident">stateIN4,10,11,12,13,14,15,6^NQpriority!=4^NQcategory=Change Request^NQu_application=Hendrix^EQ<item display_value="4,10,11,12,13,14,15,6" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="4,10,11,12,13,14,15,6"/>
+            <item display_value="4 - Low" endquery="false" field="priority" goto="false" newquery="true" operator="!=" or="false" value="4"/>
+            <item display_value="Change Request" endquery="false" field="category" goto="false" newquery="true" operator="=" or="false" value="Change Request"/>
+            <item display_value="Hendrix" endquery="false" field="u_application" goto="false" newquery="true" operator="=" or="false" value="Hendrix"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </pause_condition>
         <relative_duration_works_on>Task record</relative_duration_works_on>
         <reset_action>complete</reset_action>
         <reset_condition table="incident">u_last_brightstarr_updateONCurrent minute@javascript:gs.beginningOfCurrentMinute()@javascript:gs.endOfCurrentMinute()^u_updated_by_reference.company=aca27872db9b62008085f9d10f961900^EQ<item endquery="false" field="u_last_brightstarr_update" goto="false" newquery="false" operator="ON" or="false" value="Current minute@javascript:gs.beginningOfCurrentMinute()@javascript:gs.endOfCurrentMinute()"/>
-            <item endquery="false" field="u_updated_by_reference.company" goto="false" newquery="false" operator="=" or="false" value="aca27872db9b62008085f9d10f961900"/>
+            <item display_table="core_company" display_value="Brightstarr Ltd" endquery="false" field="u_updated_by_reference.company" goto="false" newquery="false" operator="=" or="false" value="aca27872db9b62008085f9d10f961900"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reset_condition>
         <resume_condition/>
@@ -27,13 +28,13 @@
         <schedule_source>sla_definition</schedule_source>
         <schedule_source_field/>
         <set_start_to>u_last_brightstarr_update</set_start_to>
-        <start_condition table="incident">state=2^priority=4^category!=Change Request^u_application!=Hendrix^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
-            <item endquery="false" field="priority" goto="false" newquery="false" operator="=" or="false" value="4"/>
-            <item endquery="false" field="category" goto="false" newquery="false" operator="!=" or="false" value="Change Request"/>
-            <item endquery="false" field="u_application" goto="false" newquery="false" operator="!=" or="false" value="Hendrix"/>
+        <start_condition table="incident">state=2^priority=4^category!=Change Request^u_application!=Hendrix^EQ<item display_value="Active" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item display_value="4 - Low" endquery="false" field="priority" goto="false" newquery="false" operator="=" or="false" value="4"/>
+            <item display_value="Change Request" endquery="false" field="category" goto="false" newquery="false" operator="!=" or="false" value="Change Request"/>
+            <item display_value="Hendrix" endquery="false" field="u_application" goto="false" newquery="false" operator="!=" or="false" value="Hendrix"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </start_condition>
-        <stop_condition table="incident">state=7^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="7"/>
+        <stop_condition table="incident">state=7^EQ<item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="7"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </stop_condition>
         <sys_class_name>contract_sla</sys_class_name>

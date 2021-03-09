@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Client Configuration">adb3095ddb6b6740c6459635db961975</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>Lewis.Murrell@brightstarr.com</sys_created_by>
+        <sys_created_on>2020-10-28 09:47:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9deeaf3adbccac1032897a76f39619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Client Configuration.admin</sys_name>
+        <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_9deeaf3adbccac1032897a76f39619ac</sys_update_name>
+        <sys_updated_by>Lewis.Murrell@brightstarr.com</sys_updated_by>
+        <sys_updated_on>2020-10-28 09:47:49</sys_updated_on>
+        <user_criteria display_value="admin">b8de6f3adbccac1032897a76f39619a2</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

@@ -84,20 +84,6 @@
             <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
             <sys_updated_on>2019-02-19 11:56:21</sys_updated_on>
         </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-27 16:27:18</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>4e985993db7ef3406370fc7c0c96194e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_brig3_client_con_client_configuration" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">3ee10783dbbe4300342ef3571d961981</sys_ui_form>
-            <sys_ui_section caption="Custom Branded App" display_value="Custom Branded App" name="x_brig3_client_con_client_configuration" sys_domain="global" view="Default view">8a985993db7ef3406370fc7c0c961949</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-27 16:27:18</sys_updated_on>
-        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_brig3_client_con_client_configuration</name>
             <roles/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>false</active>
-        <conditions table="x_brig3_client_con_client_configuration">stage=Client Configuration Overview^EQ<item endquery="false" field="stage" goto="false" newquery="false" operator="=" or="false" value="Client Configuration Overview"/>
+        <conditions table="x_brig3_client_con_client_configuration">stage=Client Configuration Overview^EQ<item display_value="Client Configuration Overview" endquery="false" field="stage" goto="false" newquery="false" operator="=" or="false" value="Client Configuration Overview"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>

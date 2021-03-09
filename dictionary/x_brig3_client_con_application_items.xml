@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Application items" max_length="40" name="x_brig3_client_con_application_items" type="collection">
+    <element label="Application items" max_length="40" name="x_brig3_client_con_application_items" sizeclass="17" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Client Configuration" max_length="32" name="client_configuration" reference="x_brig3_client_con_client_configuration" type="reference"/>
         <element choice="3" label="Environment" max_length="40" name="environment" type="choice">
             <choice>
-                <element inactive_on_update="false" label="QA" sequence="100" value="qa"/>
+                <element inactive_on_update="false" label="CMS" sequence="100" value="CMS"/>
                 <element inactive_on_update="false" label="Staging" sequence="200" value="staging"/>
                 <element inactive_on_update="false" label="Production" sequence="300" value="production"/>
             </choice>

@@ -8,6 +8,7 @@
         <internal>false</internal>
         <public>false</public>
         <roles/>
+        <seo_script/>
         <short_description>Record Form</short_description>
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>shay.faingold@hikon.co.uk</sys_created_by>
@@ -24,5 +25,7 @@
         <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
         <sys_updated_on>2019-02-10 00:16:28</sys_updated_on>
         <title>Client Configuration</title>
+        <use_seo_script>false</use_seo_script>
     </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=42c8395ddbeb6740c6459635db96194b"/>
 </record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_brig3_client_con_client_configuration">hosting_typeINCloud - Hub,Cloud - Hub and Engage^EQ<item endquery="false" field="hosting_type" goto="false" newquery="false" operator="IN" or="false" value="Cloud - Hub,Cloud - Hub and Engage"/>
+        <conditions table="x_brig3_client_con_client_configuration">hosting_typeINCloud - Hub,Cloud - Hub and Engage^EQ<item display_value="Cloud - Hub,Cloud - Hub and Engage" endquery="false" field="hosting_type" goto="false" newquery="false" operator="IN" or="false" value="Cloud - Hub,Cloud - Hub and Engage"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>

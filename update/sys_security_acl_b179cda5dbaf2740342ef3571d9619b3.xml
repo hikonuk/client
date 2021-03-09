@@ -4,7 +4,7 @@
         <admin_overrides>true</admin_overrides>
         <advanced>true</advanced>
         <condition table="x_brig3_client_con_client_configuration">company=javascript:gs.getUser().getCompanyID();^state=Waiting to Complete^EQ<item endquery="false" field="company" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUser().getCompanyID();"/>
-            <item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="Waiting to Complete"/>
+            <item display_value="Waiting to Complete" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="Waiting to Complete"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description>Allow write for records in x_brig3_client_con_client_configuration, if the ACL condition (company=javascript:gs.getUser().getCompanyID();^state=Waiting to Complete^EQ) evaluates to true.</description>

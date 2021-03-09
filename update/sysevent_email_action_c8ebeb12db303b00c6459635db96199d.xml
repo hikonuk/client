@@ -2,7 +2,7 @@
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>true</action_insert>
         <action_update>true</action_update>
-        <active>true</active>
+        <active>false</active>
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Change Task" name="Change Task">91a67554dbd12300290cf9b41d961927</category>
@@ -38,6 +38,8 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<p>A Change Task has been assigned to you.</p>
+<p>Parent: ${parent}</p>
+<p>Number: ${number}</p>
 <p>Short description: ${short_description}</p>
 <p>Due date: ${due_date}</p>]]></message_html>
         <message_list/>
@@ -62,7 +64,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c8ebeb12db303b00c6459635db96199d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Change task assigned</sys_name>
         <sys_overrides/>
         <sys_package display_value="Client Configuration Overview" source="x_brig3_client_con">ae3a764fdb7e4300342ef3571d9619c5</sys_package>
@@ -71,7 +73,7 @@
         <sys_scope display_value="Client Configuration Overview">ae3a764fdb7e4300342ef3571d9619c5</sys_scope>
         <sys_update_name>sysevent_email_action_c8ebeb12db303b00c6459635db96199d</sys_update_name>
         <sys_updated_by>Matt.Parker@brightstarr.com</sys_updated_by>
-        <sys_updated_on>2019-04-16 14:38:27</sys_updated_on>
+        <sys_updated_on>2020-02-14 15:00:20</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

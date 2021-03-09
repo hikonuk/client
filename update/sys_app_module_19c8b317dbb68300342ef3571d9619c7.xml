@@ -5,7 +5,7 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="x_brig3_client_con_client_configuration">stage=General pre-requisites^active=true^EQ<item endquery="false" field="stage" goto="false" newquery="false" operator="=" or="false" value="General pre-requisites"/>
+        <filter table="x_brig3_client_con_client_configuration">stage=General pre-requisites^active=true^EQ<item display_value="General pre-requisites" endquery="false" field="stage" goto="false" newquery="false" operator="=" or="false" value="General pre-requisites"/>
             <item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>

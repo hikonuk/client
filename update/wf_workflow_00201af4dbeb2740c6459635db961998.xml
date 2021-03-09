@@ -672,12 +672,12 @@ answer = 0;</value>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>shay.faingold@hikon.co.uk</sys_created_by>
         <sys_created_on>2019-02-08 12:41:03</sys_created_on>
-        <sys_id>04201af4dbeb2740c6459635db9619a8</sys_id>
+        <sys_id>4c201af4dbeb2740c6459635db9619a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
         <sys_updated_on>2019-02-08 12:41:03</sys_updated_on>
-        <value>a5371f48db36c300342ef3571d9619d2</value>
-        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
+        <value/>
+        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
@@ -686,12 +686,12 @@ answer = 0;</value>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>shay.faingold@hikon.co.uk</sys_created_by>
         <sys_created_on>2019-02-08 12:41:03</sys_created_on>
-        <sys_id>4c201af4dbeb2740c6459635db9619a8</sys_id>
+        <sys_id>04201af4dbeb2740c6459635db9619a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>shay.faingold@hikon.co.uk</sys_updated_by>
         <sys_updated_on>2019-02-08 12:41:03</sys_updated_on>
-        <value/>
-        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
+        <value>a5371f48db36c300342ef3571d9619d2</value>
+        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>

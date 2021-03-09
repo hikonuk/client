@@ -3,6 +3,7 @@
         <access>public</access>
         <active>true</active>
         <api_name>x_brig3_client_con.getCompany</api_name>
+        <caller_access/>
         <client_callable>true</client_callable>
         <description/>
         <name>getCompany</name>

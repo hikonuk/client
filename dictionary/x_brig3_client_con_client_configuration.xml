@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=true" audit="true" label="Client Configuration" max_length="40" name="x_brig3_client_con_client_configuration" type="collection">
+    <element attributes="hasLabels=true,live_feed=true" audit="true" label="Client Configuration" max_length="40" name="x_brig3_client_con_client_configuration" sizeclass="314" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Additional Languages" max_length="4000" name="additional_languages" type="string"/>
         <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" reference_qual="active=true^company=aca27872db9b62008085f9d10f961900^EQ" reference_qual_condition="active=true^company=aca27872db9b62008085f9d10f961900^EQ" type="reference"/>
@@ -21,7 +21,7 @@
         <element hint="e.g. rockstarrs.unily.com" label="Azure App Reply URL Production" max_length="40" name="azure_app_reply_url_production" type="string"/>
         <element hint="e.g. rockstarrsstaging.unily.com" label="Azure App Reply URL Staging" max_length="40" name="azure_app_reply_url_staging" type="string"/>
         <element label="Azure Data Centre Location" max_length="40" name="azure_data_centre_location" type="string"/>
-        <element label="Certificate Password added to Last Pass" max_length="40" name="certificate_password_added_to_last_pass" type="boolean"/>
+        <element label="Certificate Password added to Keeper" max_length="40" name="certificate_password_added_to_last_pass" type="boolean"/>
         <element active="false" label="Client Secret" max_length="40" name="client_secret" type="string"/>
         <element hint="e.g, rockstarrs-cms.unily.com" label="CMS URL required for Production" max_length="40" name="cms_url_required_for_production" type="string"/>
         <element label="CNAME DNS Resolution verified" max_length="40" name="cname_dns_resolution_verified" type="boolean"/>
@@ -49,7 +49,6 @@
                 <element inactive_on_update="false" label="Ready for engineer review" sequence="0" value="Ready for engineer review"/>
                 <element inactive_on_update="false" label="New" sequence="1" value="New"/>
                 <element inactive_on_update="false" label="In progress with client" sequence="2" value="In progress with client"/>
-                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
             </choice>
         </element>
         <element label="Go-live date" max_length="40" name="go_live_date" type="glide_date_time"/>
@@ -76,8 +75,8 @@
         <element label="Mandatory Reads" max_length="40" name="mandatory_reads" type="boolean"/>
         <element label="Notifications" max_length="40" name="notifications" type="boolean"/>
         <element hint="e.g. brightstarr (No special characters)" label="Number of licensed users" max_length="40" name="number_of_licensed_users" type="string"/>
-        <element hint="Please confirm with Microsoft if unsure " label="Office 365 data center location (existing)" max_length="40" name="office_365_data_center_location_existing" type="string"/>
-        <element label="Office 365 registered address in Company/Organizational profile" max_length="4000" name="office_365_registered_address_in_company_organizational_profile" type="string"/>
+        <element hint="Please confirm with Microsoft if unsure " label="Office 365 data center location (If applicable)" max_length="40" name="office_365_data_center_location_existing" type="string"/>
+        <element label="Location of largest user base" max_length="4000" name="office_365_registered_address_in_company_organizational_profile" type="string"/>
         <element label="Personalisation" max_length="40" name="personalisation" type="boolean"/>
         <element label="Phase 2 Go-live date" max_length="40" name="phase_2_go_live_date" type="glide_date_time"/>
         <element label="Phase 2 Go-live user base size" max_length="10" name="phase_2_go_live_user_base_size" type="string"/>
@@ -92,7 +91,6 @@
             <choice>
                 <element inactive_on_update="false" label="New" sequence="1" value="New"/>
                 <element inactive_on_update="false" label="In progress with client" sequence="2" value="In progress with client"/>
-                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
                 <element inactive_on_update="false" label="Ready for engineer review" sequence="3" value="Ready for engineer review"/>
             </choice>
         </element>
@@ -112,11 +110,10 @@
         <element label="Show General pre-requisites fields" max_length="40" name="show_general" type="boolean"/>
         <element label="Show Production fields" max_length="40" name="show_production" type="boolean"/>
         <element label="Show Staging fields" max_length="40" name="show_staging" type="boolean"/>
-        <element choice="3" default="Unily Social" label="Social" max_length="40" name="social" type="choice">
+        <element choice="1" label="Social" max_length="40" name="social" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Unily Social" sequence="0" value="Unily Social"/>
-                <element inactive_on_update="false" label="Yammer" sequence="1" value="Yammer"/>
-                <element inactive_on_update="false" label="Both" sequence="2" value="both"/>
+                <element inactive_on_update="false" label="Unily Social" sequence="100" value="Unily Social"/>
+                <element inactive_on_update="false" label="Yammer" sequence="200" value="Yammer"/>
             </choice>
         </element>
         <element choice="1" default="Client Configuration Overview" label="Stage" max_length="40" name="stage" type="choice">
@@ -133,8 +130,7 @@
         <element choice="1" default="New" label="Staging pre-req status - set to 'ready for engineer review' when complete" max_length="40" name="staging_pre_requisites_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="New" sequence="1" value="New"/>
-                <element inactive_on_update="false" label="In progress with client" sequence="2" value="In progress with client"/>
-                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
+                <element inactive_on_update="false" label="In progess with client" sequence="2" value="In progess with client"/>
                 <element inactive_on_update="false" label="Ready for engineer review" sequence="3" value="Ready for engineer review"/>
             </choice>
         </element>
@@ -147,7 +143,6 @@
                 <element inactive_on_update="false" label="Complete" sequence="400" value="Complete"/>
             </choice>
         </element>
-        <element label="Success General Submission Complete" max_length="40" name="success_general_submission_complete" type="boolean"/>
         <element label="Target Production Release Date" max_length="40" name="target_production_release_date" type="glide_date_time"/>
         <element label="Target Staging Release Date" max_length="40" name="target_staging_release_date" type="glide_date_time"/>
         <element label="Technical Point of Contact (email address and telephone number)" max_length="4000" name="technical_point_of_contact" type="string"/>
@@ -169,7 +164,7 @@
             </choice>
         </element>
         <element label="Unily Support Account Username" max_length="40" name="unily_support_account_username" type="string"/>
-        <element label="Unily Sync/Service Account Credentials added to LastPass" max_length="40" name="unily_sync_service_account_credentials_added_to_lastpass" type="boolean"/>
+        <element label="Unily Sync/Service Account Credentials added to Keeper" max_length="40" name="unily_sync_service_account_credentials_added_to_lastpass" type="boolean"/>
         <element choice="1" label="Unily Sync/Service Account privileges" max_length="120" name="unily_sync_service_account_privileges" type="string">
             <choice>
                 <element inactive_on_update="false" label="Global Admin" sequence="100" value="Global Admin"/>
@@ -178,67 +173,24 @@
             </choice>
         </element>
         <element label="Unily Sync/Service Account Username" max_length="120" name="unily_sync_service_account_username" type="string"/>
-        <element label="Unily Test user Account Credentials added to Last Pass" max_length="40" name="unily_test_useraaccount_credentials_added_to_last_pass" type="boolean"/>
+        <element label="Unily Test user Account Credentials added to Keeper" max_length="40" name="unily_test_useraaccount_credentials_added_to_last_pass" type="boolean"/>
         <element label="Unily Test user account" max_length="120" name="unily_test_user_account" type="string"/>
         <element label="Updated by (ref)" max_length="32" name="updated_by_ref" reference="sys_user" type="reference"/>
         <element label="User sync configuration requirements" max_length="4000" name="user_sync_configuration_requirements" type="string"/>
         <element label="User sync configured" max_length="40" name="user_sync_configured" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="ADFS Proxy" max_length="250" name="u_adfs_proxy" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Authentication Method" max_length="40" name="u_authentication_method" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Azure AD" sequence="0" value="azure ad"/>
-                <element inactive_on_update="false" label="ADFS" sequence="1" value="adfs"/>
-                <element inactive_on_update="false" label="OAuth" sequence="2" value="oauth"/>
-            </choice>
-        </element>
+        <element label="Whitelisted IP Address" max_length="40" name="u_boolean_1" type="boolean"/>
         <element label="Created new client wiki" max_length="40" name="u_clientwiki" type="boolean"/>
         <element label="CMS Certificate Expires" max_length="40" name="u_cms_cert_expire" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="CMS Cert Name" max_length="40" name="u_cms_cert_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="CMS Cert Password" max_length="40" name="u_cms_cert_password" type="string"/>
         <element label="External User Invites" max_length="40" name="u_external_invites" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Front End Cert Name" max_length="40" name="u_front_end_cert_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Front End Cert Password" max_length="40" name="u_front_end_cert_password" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="General Rejection Message" max_length="1000" name="u_general_rejection_message" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="General Submitted By" max_length="40" name="u_general_submitted_by" type="string"/>
+        <element label="Mobile App Certificate Expires" max_length="40" name="u_glide_date_1" type="glide_date"/>
         <element label="Test" max_length="4000" name="u_journal_1" type="journal"/>
         <element label="Kudos" max_length="40" name="u_kudos" type="boolean"/>
-        <element label="Android" max_length="40" name="u_ma_android" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Apple Developer Account" max_length="40" name="u_ma_apple_developer_account" type="string"/>
-        <element label="Client Call" max_length="40" name="u_ma_client_call" type="boolean"/>
-        <element label="In-Tune SDK Integration" max_length="40" name="u_ma_intune_sdk_integration" type="boolean"/>
-        <element label="IOS" max_length="40" name="u_ma_ios" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="MDM Solution" max_length="40" name="u_ma_mdm_solution" type="string"/>
         <element label="Modern Social UI" max_length="40" name="u_modern_social_ui" type="boolean"/>
-        <element label="Office365 Integration" max_length="40" name="u_o365_integration" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Octopus Slugname" max_length="40" name="u_octopus_slugname" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="OpenId Authority" max_length="40" name="u_openid_authority" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="OpenId Auth Endpoint" max_length="40" name="u_openid_auth_endpoint" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="OpenId Callback Path" max_length="40" name="u_openid_callback_path" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="OpenId Claim Map" max_length="40" name="u_openid_claim_map" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="OpenId ID" max_length="40" name="u_openid_id" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="OpenId Method" max_length="40" name="u_openid_mehtod" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Oauth2" sequence="0" value="oauth2"/>
-                <element inactive_on_update="false" label="OIDC" sequence="1" value="oidc"/>
-            </choice>
-        </element>
-        <element attributes="edge_encryption_enabled=true" label="OpenId Metadata Address" max_length="40" name="u_openid_metadata_address" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="OpenId Scope" max_length="40" name="u_openid_scope" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="OpenId Secret" max_length="40" name="u_openid_secret" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="OpenId Token Endpoint" max_length="40" name="u_openid_token_endpoint" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="OpenId User Information Endpoint" max_length="40" name="u_openid_user_info_endpoint" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Production Rejection Message" max_length="1000" name="u_production_rejection_message" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Production Submitted By" max_length="40" name="u_production_submitted_by" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Production Sync app Id" max_length="40" name="u_prod_sync_app_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Production Sync app Secret" max_length="50" name="u_prod_sync_app_secret" type="string"/>
-        <element label="New Reference" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
-        <element label="SAN Certificate" max_length="40" name="u_san_cert" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Staging Rejection Messgae" max_length="1000" name="u_staging_rejection_message" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Staging Submitted By" max_length="40" name="u_staging_submitted_by" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Staging sync App Secret" max_length="50" name="u_staging_sync_app_secret" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Deployment Points of Contact" max_length="4000" name="u_string_1" type="string"/>
-        <element label="Success Production Submission Complete" max_length="40" name="u_success_production_submission_complete" type="boolean"/>
-        <element label="Success Staging Submission Complete" max_length="40" name="u_success_staging_submission_complete" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Deployment Scheduling Points of Contacts (email address)" max_length="4000" name="u_string_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Staging Sync App Id" max_length="40" name="u_sync_app_id" type="string"/>
         <element label="Has support discussed User Rights Assignment" max_length="40" name="u_user_rights_assignment" type="boolean"/>
         <element label="Front End Certificate Expires" max_length="40" name="u_wfe_cert_expire" type="glide_date"/>
@@ -258,15 +210,12 @@
             <element name="csm_owner"/>
         </index>
         <index name="index3">
-            <element name="u_reference_1"/>
-        </index>
-        <index name="index4">
             <element name="updated_by_ref"/>
         </index>
-        <index name="index5">
+        <index name="index4">
             <element name="company"/>
         </index>
-        <index name="index6">
+        <index name="index5">
             <element name="assigned_to"/>
         </index>
     </element>
